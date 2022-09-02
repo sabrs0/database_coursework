@@ -1,0 +1,5 @@
+usr = "postgres"
+pswd = "Qsewr738"
+prt = "5432"
+hst = "127.0.0.1"
+db = "foundations"

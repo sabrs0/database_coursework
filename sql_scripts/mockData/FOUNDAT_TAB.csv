@@ -1,0 +1,1001 @@
+id,name,password,curFoudrisingAmount,closedFoundrisingAmount,fund_balance,income_history,outcome_history,volunteer_amount
+1,Bergstrom LLC,CRXEDMQUe,31,90,$807881.30,$4.96,$9.96,16
+2,Daniel LLC,4fxHGKcfN,79,89,$1546498.25,$7.92,$1.93,56
+3,Tillman Inc,q6FqeR,8,67,$2692620.93,$0.36,$2.88,53
+4,"Bins, Robel and Bartoletti",VyenXq,95,79,$2380762.88,$7.80,$4.03,91
+5,O'Conner LLC,bywgKO3RT,41,55,$4787389.67,$5.34,$1.30,25
+6,Hirthe-Cronin,4KFg2l2tbFKF,62,47,$7280946.70,$6.27,$5.02,45
+7,"Runolfsdottir, Reynolds and Carter",eXAkYB,55,82,$6035056.63,$2.05,$6.36,84
+8,"Stamm, Grimes and Ernser",hFrLpqu,55,58,$603483.75,$2.61,$3.59,87
+9,Nikolaus-Dicki,kPD2SRfjwr,87,76,$6568216.35,$6.68,$1.82,68
+10,Kreiger-Osinski,ot7LYNoiES,77,48,$2351329.85,$1.07,$2.63,81
+11,"Lueilwitz, Howell and Morissette",QXn0z0I,10,27,$7807785.71,$8.48,$8.06,48
+12,Lehner Group,3eU6oLaxLqo,35,61,$1167342.92,$5.35,$5.13,64
+13,Rutherford Inc,AFeis9,84,34,$360940.55,$2.58,$3.87,8
+14,Ward-Bartell,fFFVxGSgdoQ,100,39,$8632327.96,$8.49,$2.82,86
+15,Johns-Hansen,cbEyahv,87,59,$5478394.96,$9.26,$8.66,45
+16,"Rath, Kassulke and Kozey",7EvBbTtzYbk,77,7,$1177714.04,$7.50,$3.75,25
+17,Greenfelder-Reichert,Ds6G7V,9,62,$8150597.67,$4.31,$4.12,93
+18,Koepp Group,8iCEUKyx,70,48,$679352.53,$8.21,$9.26,20
+19,Thompson Inc,UN2bGCXFRA2E,73,39,$1212772.73,$3.11,$4.13,93
+20,Swift-Schaefer,LybOLGQbe,42,60,$6423003.07,$0.37,$3.91,20
+21,Ratke LLC,qOua32dm,57,18,$123040.45,$1.41,$5.26,98
+22,Zemlak-Christiansen,f6oFQ66xwITh,83,5,$5710066.07,$4.52,$3.79,95
+23,Pouros LLC,FCJwMz55q3,57,94,$4944775.77,$9.89,$8.18,31
+24,"Stark, Muller and Hyatt",hFvCVhyPwP,42,21,$2475928.58,$5.73,$9.12,45
+25,"Gutmann, Rogahn and Kreiger",MAVm35U6ACX3,96,75,$98404.18,$6.33,$8.78,27
+26,"Quigley, Crooks and Wiza",A2CTi3,13,5,$6717481.41,$7.14,$2.48,3
+27,Heller Group,cxHZx6zhPH,94,76,$5267353.75,$6.54,$9.92,4
+28,Considine and Sons,O51k1nYpFCkV,85,97,$8234713.57,$6.53,$8.22,88
+29,Rutherford-Satterfield,yLLOq3JiLn,100,24,$5468736.44,$8.66,$8.91,1
+30,"Maggio, Ward and Gottlieb",0u9icRt,44,62,$5708921.01,$9.46,$7.13,90
+31,"Bogan, Shields and Leffler",phFKitW9a0,82,100,$1638618.52,$6.44,$0.59,35
+32,Brown Inc,hIEpR45jYN,60,48,$5925670.99,$8.29,$7.87,54
+33,Keeling-Kreiger,8Gnw6xB11DO,24,96,$2424943.97,$1.83,$9.00,72
+34,"Zieme, Littel and Prosacco",CfLdAMTNR,50,100,$1649280.05,$1.26,$3.03,82
+35,"Lowe, Feeney and Satterfield",Qn6QbDySMF,44,17,$2876935.45,$4.68,$1.91,69
+36,"Kiehn, Hartmann and Jacobson",fvXwzVzy,30,78,$4296677.37,$9.77,$4.50,24
+37,"McLaughlin, Walter and Robel",raCcmcDPdI,1,85,$309749.87,$1.01,$9.67,19
+38,Boehm-Buckridge,G5u05An,77,72,$4025125.10,$2.86,$7.72,75
+39,Runte Group,3Vf9QBHRWG,96,22,$7176800.20,$7.70,$0.13,5
+40,Huel LLC,8U4aW9GlwJ,90,88,$7041059.98,$9.05,$7.21,4
+41,Fay-Morissette,hg3kGipvO,79,6,$2643474.00,$3.71,$3.90,49
+42,"Gleichner, Willms and Rippin",58XXegvQ,39,67,$168456.75,$1.13,$1.34,28
+43,"Ziemann, Harber and Effertz",Vnyu4IMeN,44,91,$6049590.13,$4.09,$7.62,24
+44,"Monahan, Hauck and Brakus",yQcXlIgvj6,54,14,$6142114.89,$3.14,$1.92,78
+45,White Inc,lB5BYOq88Hbo,59,59,$8527721.56,$7.98,$8.26,61
+46,Renner-Boyer,6UWNqaeHrR,48,47,$4701606.34,$4.63,$3.58,14
+47,Jerde LLC,OuYVGCs0wVG,79,85,$2161626.65,$9.46,$8.60,1
+48,Boyer Group,HEDZlPqcJ3k8,86,1,$2237367.31,$1.06,$5.03,9
+49,Senger LLC,jW6IvC6WV,37,77,$3080035.53,$0.32,$6.24,20
+50,"Rohan, Pfeffer and Jenkins",nT7EMK0e,60,90,$1743529.33,$8.39,$5.19,45
+51,Marks LLC,po7dugiF,39,63,$4890488.71,$9.10,$1.59,50
+52,"Beer, Hodkiewicz and Goodwin",9HVCB5,79,52,$2834054.60,$3.04,$3.31,3
+53,"Hayes, Schulist and Carter",T4tA2CPiVDp,28,68,$7539721.31,$7.47,$9.04,56
+54,Rolfson and Sons,sXhapw,95,42,$3896683.14,$6.61,$9.07,29
+55,"Wyman, Jacobs and Kris",zK7IBtEI2Ma,65,93,$3329183.16,$3.48,$4.87,1
+56,Spinka-Denesik,odRx29tbYXpk,57,45,$8535343.65,$8.72,$1.76,22
+57,Roberts LLC,LvG7PSzLYWw,46,47,$7798718.87,$1.12,$1.89,4
+58,"Huels, O'Kon and Zulauf",9GYrrrVsaWp,29,60,$4328051.10,$4.82,$1.03,52
+59,Murazik and Sons,VPdx7tVQc6g,60,77,$8885583.26,$7.01,$7.49,39
+60,Flatley LLC,gmYkdosq7K,49,99,$485000.60,$7.27,$4.18,52
+61,Koch-Ward,ldDBkT4R1o,98,57,$1612185.99,$6.66,$4.12,69
+62,"Williamson, Fadel and Mann",x8JoE4DVxFAO,1,91,$3714305.87,$4.57,$2.92,83
+63,"Greenfelder, Simonis and Batz",VOn4qdgz3b,12,78,$6720298.62,$7.80,$3.42,34
+64,Volkman Group,I8miAkcRlU,88,37,$688752.24,$2.45,$3.87,64
+65,"Paucek, Reinger and Goldner",NKTdQSaNhQJ,66,55,$50576.96,$3.35,$2.38,3
+66,Renner Inc,Fgjrxnxpx,1,84,$116989.62,$0.73,$7.79,100
+67,Emmerich-MacGyver,vuGwcbfScM,47,80,$7763110.66,$0.50,$7.09,13
+68,"Dietrich, Heidenreich and Heller",PE42H42jw7,79,85,$5077542.45,$4.76,$2.88,94
+69,Berge-Sipes,3gYY0CGJW,17,81,$8051180.06,$9.28,$6.55,4
+70,Powlowski Group,QV5y3LWn8,19,28,$3188764.17,$2.42,$2.40,92
+71,Klocko-Feeney,sQHrIkpg,57,66,$2934133.60,$0.26,$5.92,93
+72,Mills-Runolfsdottir,yPyutvHAqO,9,17,$4834387.97,$0.72,$0.90,48
+73,Beatty LLC,Owt58RleKY2T,47,4,$6387179.75,$7.71,$2.73,52
+74,Reynolds-Boyer,rmcSyMSWcb,15,11,$1996551.54,$9.06,$1.70,35
+75,Denesik Inc,6oVBkeo7l,85,16,$4455003.24,$8.35,$6.93,78
+76,Boehm-Kozey,vtqLjUuw,12,78,$1421281.41,$7.81,$9.07,12
+77,Yundt-Senger,WGcheQyOUG,58,67,$2827596.07,$6.86,$4.77,84
+78,Romaguera-Upton,84XExlk,12,86,$8592146.45,$2.05,$0.49,79
+79,"Boyer, Vandervort and Hirthe",OxIVsPCUyP,88,11,$6936013.42,$6.86,$0.60,37
+80,Littel LLC,5zXGvWIZJ,39,93,$5866491.44,$9.72,$9.97,98
+81,"Nolan, Auer and Torp",AubthpM,2,21,$5211136.62,$2.27,$8.64,55
+82,Kunde and Sons,IOEqds448krM,63,80,$6943594.48,$7.95,$7.74,90
+83,"Johns, Schinner and O'Connell",UYDzzNWXL,15,91,$8630520.66,$5.59,$6.94,71
+84,Dickinson-Homenick,8NThIVHr,23,71,$3322027.07,$7.07,$2.63,55
+85,Schneider-Williamson,4cZdcXm45Dx,89,87,$6236384.11,$7.76,$7.16,12
+86,Bradtke-Miller,bbOSXS,97,67,$7568229.60,$1.62,$4.36,18
+87,Nitzsche-Kulas,CAVmIXUrsIG,26,40,$101938.04,$4.62,$0.82,48
+88,Romaguera LLC,mPg4vXH8uZtt,8,64,$4544488.91,$3.62,$2.78,19
+89,Rowe-Murazik,TvDDPjcM,55,97,$8788168.49,$1.63,$0.54,21
+90,Schaefer and Sons,OD3820C2BK,89,46,$3629897.93,$4.72,$2.92,33
+91,Lang Group,fG0P6jDWGQc,2,87,$7618513.93,$3.48,$9.63,54
+92,"Johns, Donnelly and DuBuque",s9dY1W,97,42,$5463053.86,$1.09,$5.98,99
+93,Satterfield-Franecki,yG0yJhC9dWCC,16,85,$2709765.40,$2.29,$9.22,4
+94,Ratke-Bruen,Mesdtr8MBx1j,58,2,$5000177.50,$8.57,$5.39,16
+95,Blanda Group,2sFokkg,16,95,$5582621.53,$7.54,$1.29,45
+96,Williamson-Waters,LvxaGZnM5h,2,7,$4513501.07,$2.78,$8.46,56
+97,"Stokes, Ondricka and Powlowski",P9YHxJ8W,83,33,$3954761.38,$2.50,$6.90,89
+98,Ruecker-Hand,AQSmPc0nqH,71,66,$344800.34,$3.53,$0.43,0
+99,"Jast, Gottlieb and Auer",8cL5Ct0AgA,6,66,$4995788.75,$8.57,$8.67,11
+100,Grimes and Sons,dlWih7Z,71,77,$4064382.83,$0.47,$1.28,68
+101,Robel-Muller,Or9qPDal,27,94,$2474753.22,$6.99,$6.18,51
+102,Langworth-Swaniawski,V0B8elnQwhdA,73,36,$3133275.80,$2.67,$8.95,7
+103,Hansen-Beer,Jdtr9rxHr,32,17,$6358392.06,$7.38,$1.57,16
+104,Witting Group,bsUF3MsCk,33,85,$3664046.20,$5.78,$7.86,69
+105,Aufderhar Group,ICZPPCJj9w6q,51,50,$2819233.71,$5.38,$0.63,76
+106,"Mayert, Pagac and Torphy",9Kxugl,12,77,$6393763.35,$8.34,$5.85,29
+107,Reichert Group,CzoTtt,89,36,$3043277.76,$0.15,$4.82,3
+108,Gibson-Heller,Pacghan,35,18,$588581.52,$5.57,$4.84,36
+109,"Wisozk, Block and Schmidt",l3ouFz,52,72,$4960118.24,$9.37,$5.95,49
+110,"Ward, Goodwin and Rutherford",wuGXQc,84,20,$2655567.24,$7.33,$7.93,14
+111,Veum LLC,KR04On,36,98,$3305312.13,$8.13,$1.21,81
+112,Schuster Group,cvIMVTiUKt,98,63,$5883879.37,$4.67,$3.98,75
+113,Walker LLC,Ep3HBllBIvn,9,82,$2725469.59,$9.92,$2.84,82
+114,O'Keefe and Sons,sXdwEEd,53,70,$5791067.11,$4.17,$7.70,77
+115,Feeney Group,F9Wlrv0A,70,62,$2688178.12,$0.87,$0.10,71
+116,Ziemann-Keeling,ihfjsPx,70,26,$524719.02,$1.85,$8.77,84
+117,Barrows-Tromp,PHEMn67Ha,19,12,$4475637.19,$9.20,$6.24,96
+118,Hoppe-Sporer,kImlFen6hlWw,87,73,$482213.23,$9.43,$6.03,24
+119,Kuvalis and Sons,3NJBPOfpJ,19,41,$4949532.71,$4.38,$4.63,37
+120,Collier-Wunsch,GnVFxj0va,7,81,$4526425.52,$9.37,$0.36,2
+121,"Kohler, Turner and Zieme",AFVMIbNhVa,81,26,$5499947.76,$1.51,$7.66,29
+122,"Kling, Hegmann and Denesik",FHbMW3feRUAM,23,82,$5153525.31,$0.05,$2.68,31
+123,Nader Group,gTRXLTweZHV5,23,55,$6241380.77,$2.96,$5.54,28
+124,Feest-Hauck,azbwPLe8Bq,31,81,$3278925.74,$9.15,$0.75,50
+125,"Kihn, Dickens and Graham",SRa9Kg1,31,74,$4013366.50,$2.30,$5.22,32
+126,Kuhn and Sons,dSPNV1z,86,87,$7522407.56,$3.24,$9.53,62
+127,Shields Inc,XHhBoz43,33,34,$8303259.01,$6.73,$9.77,78
+128,Bernhard-Goldner,lXFGhPga,80,6,$1929789.89,$0.56,$4.90,22
+129,Brown Inc,rgez0y9P,20,9,$2320113.03,$1.09,$7.41,95
+130,Hilpert-MacGyver,z2wElv,77,77,$8678107.99,$1.44,$6.06,66
+131,Funk and Sons,XI1qOWCzR,100,85,$4039756.54,$0.14,$5.32,18
+132,"Turcotte, Lynch and Gibson",u7vQztefxi,14,4,$8373610.85,$5.33,$1.70,1
+133,Bechtelar Inc,gVM0LEIYgwfv,54,77,$3019243.42,$0.71,$7.00,64
+134,Wehner and Sons,jvoFzAnUBpM,27,74,$1711283.46,$0.21,$0.74,0
+135,Gerhold-Marvin,cFoYblMs,16,35,$2626848.93,$9.51,$3.54,46
+136,Graham-Buckridge,66BWgSxKk,77,71,$4504976.83,$7.11,$9.53,10
+137,"Ebert, Marvin and Stoltenberg",fqw1cG,29,73,$285312.52,$5.21,$1.93,91
+138,"Gaylord, Lowe and Gaylord",liIcdZOz,83,3,$1609553.35,$8.19,$3.83,5
+139,"Heathcote, Gutmann and Sanford",XJr21F,32,44,$35018.20,$1.94,$2.43,53
+140,"Walter, Nader and King",q16arm6It,39,82,$116863.59,$0.36,$4.19,7
+141,Hoppe-Kerluke,l8lD6rfw,51,2,$7360150.34,$4.95,$5.22,40
+142,Larson Group,q7RQxQIQ,86,87,$5697338.47,$7.81,$5.89,63
+143,Walsh-Lehner,kzkZGX,15,43,$6250464.45,$1.53,$8.44,5
+144,"Hartmann, Cassin and Bosco",qoBodz6,62,52,$896566.96,$4.14,$3.77,21
+145,Ward LLC,dyy4EwQ4yR,82,27,$6232371.46,$5.77,$4.43,96
+146,"Dickens, Haley and Yost",febTTx,15,4,$4522109.46,$8.12,$9.21,12
+147,Waters-West,deRnFL8Zl8I0,53,10,$3330765.16,$5.22,$5.36,74
+148,Gerlach Group,bT8VksHS,85,80,$2014588.37,$6.74,$8.93,98
+149,Lindgren-Kilback,zHp9glx9F,83,49,$2744555.65,$2.55,$2.42,61
+150,Dooley Group,255myuWWCFdu,95,77,$6527337.31,$8.81,$8.34,92
+151,"Cormier, Goyette and King",lwCjp7CC1,77,77,$3977435.79,$3.50,$4.60,78
+152,"Hickle, Wilkinson and Block",4wAR7SDOS6,28,52,$6642395.04,$2.62,$8.14,1
+153,Koelpin-Turner,GucxAm,86,25,$2579614.47,$6.69,$1.08,43
+154,Schroeder-Homenick,LwS1Pmfb,94,70,$6455190.89,$2.77,$3.86,72
+155,"Thiel, Langworth and Tremblay",PoWu2K7uLFK,35,59,$4606432.84,$1.70,$8.56,9
+156,"Bednar, Purdy and Lindgren",k84WeTF4c,47,89,$7620438.65,$9.26,$5.96,34
+157,Legros LLC,Yvvd2rdOhqb,16,99,$6393103.43,$2.29,$1.93,38
+158,"Fritsch, O'Conner and O'Keefe",gY51BK,75,51,$6246176.90,$8.55,$8.17,27
+159,Upton Inc,elHAmHQgigYd,30,87,$7207414.00,$4.51,$3.90,78
+160,McLaughlin LLC,ws6b49i6ek1,73,26,$7527256.41,$4.77,$9.21,97
+161,"Hansen, Toy and Runolfsson",nZZKkmzXFN,82,37,$636800.42,$4.36,$8.24,76
+162,"Bruen, Spinka and Halvorson",xLUUMN,26,96,$3536587.90,$2.23,$7.54,85
+163,Grimes and Sons,hTbPQIeHcVUl,3,74,$8617243.72,$3.81,$9.45,35
+164,Welch-Streich,oYwLPF4ew5OF,62,68,$7368881.86,$6.26,$7.98,67
+165,Wolff LLC,i8Ht9m7xKpx,77,55,$3806052.21,$2.75,$5.06,64
+166,"Becker, Heaney and Bogisich",u1DYtT6,17,46,$3113930.59,$5.75,$9.21,92
+167,"Cummings, Orn and Farrell",Coh5iee,3,0,$4655026.57,$4.26,$2.05,4
+168,Bartoletti-O'Hara,yI2ffnP,85,87,$4729887.26,$0.86,$7.69,94
+169,Macejkovic LLC,fMRsDrLU,6,45,$8979919.50,$7.02,$3.05,63
+170,Howe Inc,RvmZ2O,2,60,$103499.26,$0.97,$2.29,52
+171,Feeney-Maggio,tJxUU9vJdI8,28,9,$7129761.59,$4.22,$3.03,92
+172,Wehner-Orn,BFn6p5,68,92,$5638096.87,$7.48,$3.02,81
+173,"Halvorson, Grady and Swaniawski",BpJz4U,99,34,$4403197.88,$4.37,$2.04,75
+174,"Nader, Herzog and Volkman",4lBmSrnrZn8,21,39,$2209203.34,$9.32,$6.28,58
+175,Wilderman and Sons,oSYqBONV,5,4,$6774243.68,$0.11,$1.88,28
+176,Lueilwitz and Sons,F0nz1Y,69,80,$4286308.75,$5.92,$6.49,22
+177,Reichel-Quitzon,T2a5D7qEGvm,34,30,$1765282.00,$8.02,$4.94,51
+178,Stokes-Mayer,pVyPF5RkmTs,24,83,$4933704.33,$7.51,$9.16,58
+179,Wehner-Fisher,9qW153g9UfAO,35,67,$5222392.62,$8.87,$9.59,34
+180,Yundt LLC,CPH3SZWT,30,26,$8306864.66,$4.96,$0.75,85
+181,"Dare, Rippin and Wehner",kJYNv3,72,40,$6899995.93,$9.61,$0.16,87
+182,Bechtelar-Spinka,JNCYlZ8k,37,35,$1878906.39,$6.63,$0.08,49
+183,"Howe, Rippin and Donnelly",zimpZ5HS,13,52,$7787715.75,$9.17,$3.78,89
+184,Bogan Group,w3PDKtieDhB,86,0,$6799962.81,$6.43,$5.60,34
+185,"Hansen, Leffler and Runte",PkyaFOVf,36,86,$8999540.33,$4.51,$2.62,15
+186,Daniel Inc,627r1pn,88,61,$4281935.37,$5.04,$1.70,47
+187,"Greenholt, Volkman and Reilly",5GlYRoI,30,80,$4780014.50,$1.39,$6.24,91
+188,"Wilkinson, Trantow and Schumm",0cSqWVLQL,78,0,$7161907.60,$8.29,$6.30,58
+189,"Treutel, Bruen and Erdman",DbqT9N8IYI,9,23,$5094755.44,$6.79,$3.86,51
+190,"Pagac, Romaguera and Schultz",nBjsaNGy,15,5,$4104153.33,$3.88,$1.49,16
+191,Quigley and Sons,Wr7cIm5HNvqp,8,69,$5416803.68,$6.30,$6.56,26
+192,Kessler-Kihn,YShiszZM4fC,66,67,$4286370.05,$5.63,$8.30,49
+193,Yundt-Adams,g49MZWBV,55,27,$7196637.82,$7.80,$1.69,50
+194,Thompson-Ortiz,B0bKYq,0,98,$1334861.14,$4.72,$0.58,70
+195,Gutmann-Kling,SiinYmLRX,17,14,$7101835.87,$4.17,$4.20,69
+196,"Klein, O'Conner and Hilpert",st8HLoz,6,14,$5226571.62,$6.60,$5.70,87
+197,Wisozk-Beier,bXa58UtZ,54,64,$1577343.06,$9.13,$1.20,82
+198,"Turner, Simonis and Abbott",7VIb6gk0d,77,48,$4085795.17,$8.16,$0.37,96
+199,Russel and Sons,sPZRZ3L1E,25,5,$8757289.95,$9.73,$4.95,75
+200,"Koelpin, Kub and Koelpin",TJPhgqkQ,42,46,$37080.60,$6.02,$0.99,8
+201,Denesik-Lehner,iysMUoDZc7p,29,2,$2904895.10,$3.16,$7.76,1
+202,"Gislason, Rosenbaum and Dibbert",XBK5sU4,84,28,$6318500.36,$6.10,$4.51,62
+203,West LLC,BZB6Ig,48,90,$1811545.08,$2.14,$2.69,27
+204,Shields-Romaguera,3EmJbRELiDHU,17,20,$7820448.95,$6.29,$6.68,82
+205,"Gaylord, Boehm and Mraz",yoybw2U3kY3,70,44,$7685880.59,$1.33,$5.10,78
+206,Nikolaus LLC,98mwq5,6,5,$4041473.84,$7.54,$6.65,93
+207,"Metz, Kemmer and Jaskolski",xvvmaTDLOVn,25,57,$726116.04,$1.34,$0.08,10
+208,Kuphal Inc,jjuTiuKo4B,92,40,$3752479.10,$9.70,$8.70,7
+209,"Johnson, Carroll and Reilly",YIjOii7U4F,67,15,$5633237.27,$1.97,$5.36,81
+210,"Kilback, Murazik and Feest",e6LzUeJCCMA,15,32,$2028596.20,$0.90,$7.48,88
+211,Botsford-Kutch,JIARTtG96,91,77,$1195270.13,$2.48,$7.96,24
+212,Hartmann-Hilpert,KvFmWuD12,78,45,$3088555.83,$1.91,$3.12,61
+213,Rodriguez Inc,F5iW1jAbSVbf,7,53,$3025600.80,$6.43,$6.65,2
+214,Ankunding-Carter,cAoCUYerNjJb,40,100,$1858837.58,$8.97,$8.82,29
+215,Ferry-Grady,Qg2WJg7,10,18,$4929177.78,$5.75,$5.29,64
+216,Padberg Inc,UZhRARjY,32,13,$4987878.82,$6.71,$3.86,51
+217,"Johnston, Johnston and Kuphal",q6iNwBML,39,0,$837119.33,$9.17,$7.57,34
+218,Hamill Inc,ylfF0ggAZs,82,96,$2618640.82,$3.69,$2.99,67
+219,Roob Inc,quPSas8V,27,98,$2181438.20,$0.08,$5.79,15
+220,Schinner-Reynolds,SYrcz5b5G7,87,75,$4262986.75,$3.81,$8.70,75
+221,"Ziemann, Bartell and Dooley",LbMhU4z,75,44,$2542357.83,$5.81,$9.00,75
+222,Rau-Friesen,4nGk65T,27,26,$8470575.33,$0.17,$5.56,46
+223,Hodkiewicz-Rosenbaum,WweDAGI2,22,78,$4039794.65,$7.53,$6.73,11
+224,Kihn-Sawayn,U5uqbnYm,75,53,$1114526.80,$7.80,$8.68,92
+225,Hessel Inc,Q29Fux,81,24,$6482264.10,$7.59,$3.26,72
+226,"Jaskolski, Stracke and Nikolaus",7b4LuFPJ,80,14,$7869280.92,$4.16,$6.12,12
+227,Toy-Deckow,GIR0Wpx8d3o,24,92,$2460968.05,$9.21,$7.57,94
+228,Sawayn-Kunde,7UOwd1YqXBIg,100,71,$8206328.08,$1.89,$3.06,94
+229,Pacocha and Sons,vCDm3mvZnY,18,90,$5237314.77,$2.78,$9.26,78
+230,"Bechtelar, Reichel and Mann",RScrjjxZ8M,5,73,$1042721.50,$5.76,$3.99,18
+231,Wyman-Lehner,MvT7teD5hj,79,30,$8435381.67,$0.81,$7.34,40
+232,Schneider-Bogan,eteR5By,74,60,$2736666.60,$9.73,$0.44,83
+233,Ziemann-Koelpin,h2EbXVC8,79,40,$4835048.22,$4.02,$0.93,60
+234,Jacobi LLC,dPm3uehfx6c,15,33,$2092715.12,$7.30,$2.09,23
+235,McDermott Group,NN8IDCkdB,49,65,$5638600.35,$2.04,$5.96,98
+236,Roob-Schoen,4pGDtoWKZ,41,48,$278151.12,$9.49,$8.39,86
+237,Blanda-Skiles,CPKcc9,26,51,$644327.92,$5.66,$6.40,25
+238,"Langworth, Ortiz and Schimmel",G8qgrnRc6i,60,95,$3473067.93,$0.39,$1.42,86
+239,"Witting, Rogahn and Beahan",4jcPSbYCfjfm,29,65,$7049468.46,$8.22,$2.47,22
+240,Krajcik-Gottlieb,AqnwTFl3,2,93,$741275.39,$7.64,$4.83,34
+241,"Larkin, Conn and Bosco",326rMS9vKel,86,7,$7514897.81,$7.33,$1.35,88
+242,Schneider-Grant,L2DhKLr,1,7,$2891386.57,$8.77,$8.72,87
+243,Ernser-Wisoky,mmGcNpxVTR,100,9,$2801916.49,$9.54,$3.51,93
+244,Dooley Inc,YL4LhdZU,64,87,$5695625.01,$3.82,$3.89,4
+245,Lynch-Ankunding,UgG995ht,98,44,$4341162.12,$5.41,$3.18,100
+246,"Treutel, Keebler and Jacobs",nJkxA4EP,44,81,$1235538.50,$3.82,$1.32,57
+247,"Hilpert, Gleason and Mueller",LyYqrw,12,51,$7618739.11,$4.51,$6.27,7
+248,"Paucek, Von and Wisozk",tLH5cvM,68,5,$8274022.67,$7.76,$2.48,0
+249,Champlin Inc,R7z7EYA6T,28,47,$4065016.39,$0.50,$5.31,61
+250,"Stokes, Christiansen and Franecki",AzFMcmlsrKy,56,23,$548276.24,$6.39,$8.93,18
+251,Smith LLC,X3vnDci6,49,60,$3501167.09,$0.90,$4.21,79
+252,"Sipes, Herman and Connelly",VOqp1Zm,46,25,$1496125.46,$6.23,$1.33,27
+253,"Lynch, Bernier and MacGyver",Vvyvi7Gz,73,69,$7789151.81,$3.48,$0.35,82
+254,Friesen-Lynch,PREx9H9zEDg,100,36,$8730392.28,$1.06,$6.90,98
+255,Kiehn Inc,nfr4V6Tkm,18,12,$4003878.97,$4.08,$0.66,32
+256,"Zulauf, Gleichner and Frami",W9NA470ZNR,5,38,$1072135.53,$2.03,$0.74,1
+257,Kub Group,itdAmiRICsKq,56,8,$8026759.66,$0.67,$0.63,37
+258,"Daniel, Brekke and Towne",otMOeDmoXn,1,96,$3500077.28,$0.08,$1.41,73
+259,"Bergnaum, Hegmann and Gerlach",URmPKm,25,89,$4828421.79,$0.49,$9.17,26
+260,"Wehner, MacGyver and Sauer",4W55rf,3,76,$1826763.53,$0.48,$9.36,45
+261,Fisher-Osinski,AvKrPRgJ1q8,9,98,$2010197.04,$3.61,$6.71,43
+262,Keebler Group,WH5SU46DlaV6,11,10,$8913371.66,$4.51,$0.45,25
+263,Kuphal LLC,uZOOgiUvoPt,92,42,$5425048.20,$2.07,$1.11,16
+264,Dickinson-Kling,Uksb9M85,6,26,$4673338.31,$0.16,$6.41,66
+265,Beatty LLC,qzhRhShNf,2,36,$8665450.56,$9.92,$3.67,67
+266,Hane-Schumm,x1409uAwh,61,79,$8909354.70,$2.70,$6.99,80
+267,Runolfsdottir-McKenzie,D0d7nrkLv,75,11,$1619737.48,$0.12,$4.38,26
+268,Schamberger-Lueilwitz,t6YY8q9,75,82,$5153851.72,$9.19,$2.72,89
+269,Larkin Inc,QyUr2MO7apED,5,97,$8354153.01,$5.86,$8.25,29
+270,Tillman Inc,P8YOCtN22S8,70,73,$5979470.09,$8.19,$1.36,39
+271,Parisian-Bosco,QTvX8jlN1,35,85,$3209928.83,$9.60,$8.05,90
+272,Raynor LLC,VYRttMBkk,54,5,$1502387.85,$1.88,$9.11,70
+273,Welch and Sons,8ytQUk3C96,50,25,$2400218.18,$7.42,$4.76,34
+274,"Murazik, Effertz and Koch",pmKSWP,68,31,$4273416.45,$4.71,$0.63,87
+275,Smitham LLC,PqdVbod8tqOn,7,96,$3327385.37,$7.93,$2.80,31
+276,Morissette-Keebler,7f8vWq4bMUyP,2,90,$6881701.93,$3.67,$1.56,37
+277,"Ryan, Morissette and Borer",tHkdmIR8,4,20,$5951265.62,$7.63,$6.84,54
+278,"Schultz, Carter and Rempel",YIBB2tx,66,12,$700649.17,$2.96,$3.71,67
+279,Blick and Sons,E17hfVxdU1,54,35,$212020.12,$5.08,$1.59,30
+280,Hauck-Bauch,sBqGivhN2,39,59,$3492973.53,$1.79,$3.68,19
+281,"Senger, Nolan and Hilll",ophPyk7pd,44,41,$6913153.64,$7.52,$7.62,54
+282,"Weissnat, Wilderman and Johnson",BalGEs,97,14,$7078418.68,$2.72,$4.56,59
+283,"Macejkovic, Hand and Batz",rhRwOrZZN,53,49,$5518751.47,$3.71,$0.70,31
+284,Simonis LLC,C2AGH5,21,8,$1002019.81,$2.31,$4.87,97
+285,Rowe-Wolf,aF1EUKpgqb8,30,91,$7156832.68,$8.41,$4.18,86
+286,"Denesik, Schoen and Hettinger",brYYlBds,49,97,$3927322.94,$1.64,$6.42,68
+287,Turner-Rutherford,z5RAnaiWg,29,32,$8921861.50,$0.91,$2.15,34
+288,Kling Group,0EJXKMftf348,8,32,$7352274.50,$8.83,$6.84,79
+289,Upton-Deckow,jZGm4arnTrpR,78,14,$8883574.09,$5.00,$1.53,46
+290,Bartoletti-Mayer,PLzE3W7r2,28,10,$1912816.17,$9.39,$8.48,83
+291,"Erdman, Strosin and Kertzmann",04FTrKUS,53,15,$2459689.18,$2.36,$4.36,82
+292,"Kozey, Barton and Cartwright",CXWnhkQZu,99,48,$886179.76,$3.48,$9.90,48
+293,Ullrich-Kutch,kZgFHVEmNhfd,14,67,$7973105.86,$3.13,$1.65,91
+294,Witting Group,0JJOiBGQyOgr,43,81,$4602097.53,$6.03,$7.19,39
+295,"Harber, Muller and Brakus",IvKuDlVV,54,64,$7545300.68,$5.46,$6.80,56
+296,"Wisoky, Pfeffer and Ziemann",e4zoX1,27,38,$2046508.48,$7.50,$9.41,50
+297,Ryan-Mante,WCC1gvgLBi,47,65,$8345171.99,$2.62,$4.15,68
+298,Hilll LLC,aeKYtayjc,21,92,$60292.50,$4.03,$8.04,7
+299,"Schiller, Konopelski and Tremblay",zTXpMSMUP,42,44,$3838819.37,$4.80,$4.20,6
+300,"Pfeffer, Mosciski and Grimes",Au25WFE,83,47,$1262180.14,$0.42,$6.30,13
+301,Waters-Fisher,XGUkdikM2Qjt,26,46,$159786.28,$0.47,$1.58,54
+302,Will Group,8Cm6ox8,69,27,$7024291.55,$1.55,$4.94,78
+303,Hickle Group,OjhwZul,65,96,$6940983.24,$5.45,$4.08,58
+304,Gulgowski-Tremblay,m4hHMC2NvTm,12,97,$7983323.26,$0.66,$3.25,52
+305,"Mante, Friesen and Aufderhar",5lolaEOi0w,39,12,$7468320.60,$5.19,$5.28,0
+306,"Robel, Klocko and Baumbach",JmHjkOUCC,61,40,$1583535.17,$8.02,$7.27,4
+307,Wyman Group,vxnnelMmhq,66,77,$2697436.56,$1.19,$4.18,70
+308,Hauck-Ebert,4Noko1vWf,0,19,$8497976.32,$1.52,$3.44,49
+309,Wisozk Group,VbgLaBxK,17,40,$3248392.42,$2.20,$6.15,6
+310,"Bradtke, Murazik and Hammes",En2S7PN,72,43,$7944615.00,$7.77,$5.73,32
+311,"Swaniawski, Smith and Hickle",hlxT3m0,41,32,$1466488.84,$2.58,$7.69,29
+312,"Cartwright, Schuppe and Koelpin",KG24PXK456,25,21,$7948433.07,$1.30,$3.87,77
+313,O'Conner Inc,4NmfgaNL7,16,88,$917343.39,$2.47,$9.02,39
+314,"Welch, Smitham and Ortiz",uz0Vn0UGc4,10,32,$8707722.09,$3.70,$2.61,15
+315,Hahn and Sons,70MCTn,56,90,$8754624.78,$6.57,$8.57,95
+316,Gaylord LLC,1BNjKXptT1Y,70,37,$1660486.99,$7.81,$7.00,39
+317,Nikolaus-Sipes,GTfCCHg,67,40,$2586870.34,$4.88,$9.68,28
+318,"Gaylord, Bartell and Wilkinson",rbqtQtzk5,86,55,$6580176.60,$6.33,$4.85,84
+319,"King, McClure and Mertz",g2j7GqidMeA,75,55,$2668246.92,$4.50,$6.30,17
+320,Nolan-Huel,tr8NDc8nfcBn,49,91,$2053279.35,$7.99,$8.73,19
+321,Bartoletti-Kihn,JkFLEFiI,10,0,$8217162.77,$6.03,$1.64,59
+322,"Will, Parker and Hane",3fslUP3pD,71,35,$1996250.88,$3.31,$9.23,37
+323,"Fisher, Willms and Hahn",CwQTtFgZT,82,18,$557147.19,$9.73,$4.28,2
+324,Howe-Schulist,pTtIoB,0,36,$1670279.18,$6.32,$7.28,4
+325,Hane LLC,31TYFjTe,34,27,$15592.80,$0.81,$3.49,17
+326,Haag-Towne,ZIUFoE,18,64,$1648567.37,$6.45,$9.56,89
+327,Wolff LLC,95RmF9R,43,95,$4712893.29,$6.28,$0.84,16
+328,Goldner-Glover,hJa21x7T,54,53,$7713229.05,$6.79,$8.97,65
+329,Shanahan Group,mq5KZsOrc,26,5,$2309748.40,$0.51,$3.15,86
+330,Bernier Group,S5yrxOU,86,0,$1346921.49,$1.42,$5.56,35
+331,"Jerde, Mills and Dietrich",UjuOtCRhch,60,1,$1894136.67,$0.29,$6.09,9
+332,Runolfsson and Sons,UqfyNpV,13,44,$4650318.69,$9.85,$4.78,8
+333,Dooley-Ullrich,Vqm5k9o2S7,36,98,$2376530.59,$6.91,$4.25,62
+334,Reilly Inc,NeUlyElMP,77,40,$5198277.13,$1.02,$9.57,37
+335,Buckridge-Crona,lJelWm9,11,99,$5459641.32,$5.89,$3.41,20
+336,"Kris, McCullough and Wuckert",ie5baO,12,44,$7195222.09,$2.11,$0.44,100
+337,Jast Inc,L1p51XT,11,62,$7285215.21,$7.83,$6.10,71
+338,Kilback and Sons,AHZm5vyz9R8M,47,92,$2097351.15,$7.63,$2.25,74
+339,"Marvin, Quitzon and Toy",YKtGd6,29,52,$1826027.07,$0.91,$3.23,62
+340,Brown and Sons,jK6rGHvDmq,68,44,$3086575.17,$6.09,$1.98,95
+341,Crooks-Shields,OpoSvcRqEg,83,99,$5256871.79,$5.85,$1.54,5
+342,Macejkovic-Yost,GQ5PY5CscX,76,4,$2017569.13,$8.53,$3.89,86
+343,Corwin-Kerluke,W2JPXi,37,59,$8376686.06,$7.28,$5.43,94
+344,Bergstrom-Hickle,WxNEUykyFY,44,80,$7616567.21,$1.45,$2.18,62
+345,"Labadie, Kuhn and Bauch",CpCsFOoL46in,4,26,$1191902.72,$3.23,$5.82,67
+346,Turcotte-Reynolds,4BwToIOI8e,56,23,$7782992.96,$8.27,$7.12,90
+347,"Renner, Murphy and Terry",rkUusxQ,48,96,$4673424.15,$9.99,$7.00,81
+348,"Corkery, Purdy and Jacobson",Syku19j,13,61,$8425185.34,$0.28,$7.31,21
+349,"Wilkinson, Keebler and O'Keefe",xxrQkNacX,3,90,$7040659.54,$1.36,$1.72,95
+350,"Skiles, Mayert and Jacobs",GhjpEAH,57,33,$7395322.71,$5.42,$0.25,62
+351,"Green, Luettgen and Romaguera",soPN81,55,86,$3702878.71,$9.95,$5.30,28
+352,Jacobs and Sons,bbG4j4tEpc,15,13,$6794433.89,$5.33,$1.00,40
+353,Kirlin Inc,q0YS5H,97,69,$7261509.50,$7.48,$0.49,51
+354,Effertz-Davis,uui7ijs,34,95,$2834447.73,$7.32,$7.99,29
+355,Pfannerstill and Sons,Jfp02gs8,15,40,$7558200.42,$1.35,$8.43,9
+356,Zemlak Group,ec9kIJiDT24,50,16,$1436841.15,$2.03,$7.03,14
+357,Champlin Inc,Bg3B708,35,53,$341295.41,$5.46,$5.71,78
+358,"Cormier, Cummings and O'Keefe",r2loVYKzdQ,6,90,$1402347.20,$6.33,$4.33,55
+359,Harvey-Jaskolski,XTZDnNRxKm0U,62,75,$6853638.18,$9.50,$3.93,48
+360,Russel Group,SpR5Tmyq,11,11,$6731399.63,$3.01,$8.61,23
+361,Block-Keebler,ffBaIX0,78,40,$1892977.50,$7.03,$1.89,42
+362,"Barton, McCullough and Johnston",IN0USqZwVD,39,48,$717065.96,$8.21,$3.32,1
+363,Senger Inc,2n2fojdfqWw,18,58,$1249837.93,$0.82,$1.14,11
+364,McGlynn-Schuppe,KVp5Gn,12,64,$8005584.99,$3.66,$5.72,53
+365,Stamm LLC,1Z2Nq6TZDRu,61,86,$892328.21,$0.45,$3.86,1
+366,Barrows LLC,X7aR4H5kxYPW,82,17,$99711.95,$3.21,$7.53,42
+367,"Dare, Veum and Rath",EWm6zkcnGN,50,12,$7290158.73,$9.16,$8.38,46
+368,Kshlerin and Sons,B0F3Udr0,17,57,$6702125.74,$7.05,$1.37,31
+369,"Bailey, Hilll and Jast",dXXmWh7j,61,54,$3151524.66,$3.33,$1.48,60
+370,"Kihn, Smith and Hyatt",XEdRePij,18,47,$3481651.46,$2.34,$9.56,78
+371,"Bogan, Herman and Abshire",ezr8PIFB,51,63,$8855332.30,$5.31,$8.15,78
+372,Lubowitz-Labadie,7NeNrlmPe4b,33,11,$2685489.42,$3.20,$1.41,75
+373,Gleason and Sons,3Cn3QAUUdQ,5,20,$1124410.57,$6.00,$4.13,94
+374,Kihn and Sons,BvOjSjej29BD,50,100,$2488062.51,$3.67,$5.14,23
+375,"Wiza, Collier and Hansen",xfzvgP,89,100,$2099256.84,$0.65,$7.88,64
+376,Medhurst and Sons,LXywaXG1HGbQ,29,9,$2970198.39,$7.68,$8.33,55
+377,Schultz and Sons,E2kG2xcO,19,34,$584607.52,$5.25,$0.60,95
+378,Daugherty Inc,otR87HCJ,100,88,$8817627.85,$8.39,$4.33,67
+379,Will-Swift,V2lGHXic,59,37,$4110011.73,$2.71,$7.40,14
+380,Hintz-Ratke,sPQlyKF6eXJJ,86,20,$6600401.10,$7.19,$9.52,81
+381,Marvin LLC,7NAIrTJ5l2,75,67,$6470959.53,$8.95,$0.76,70
+382,Crooks-Kuhic,Vx7Oi4tynliE,10,53,$5092086.03,$8.11,$6.91,5
+383,Walsh-Prosacco,7I7zBNjW,94,83,$889844.35,$5.98,$3.17,95
+384,Strosin and Sons,AoJegpes,87,9,$7896721.56,$6.43,$3.91,22
+385,Mitchell-Gerlach,kmNZIOC9TJk4,86,22,$4642429.79,$8.66,$4.57,1
+386,Hilpert-Howe,HDgdHs6,100,90,$6994986.62,$4.94,$0.47,94
+387,"Kuhn, Pacocha and Lindgren",f3wJjZ74kc,77,45,$1090154.71,$0.02,$4.63,45
+388,Steuber-Boehm,09HcNfJBpc5G,98,71,$4117900.67,$4.75,$5.87,88
+389,Fay LLC,8sxS7I4vT,38,64,$5835883.93,$2.76,$8.50,59
+390,Donnelly-Pollich,TVjrrXL5KZ,76,20,$6401349.55,$3.47,$3.37,58
+391,Funk-Breitenberg,XcADaYHcs,94,56,$3290300.36,$8.95,$7.59,60
+392,Muller-Bosco,sQ6lUUwTAl9b,12,72,$5422736.04,$7.56,$6.38,31
+393,Koch-Huel,lF2SXaBs,34,86,$1410772.81,$4.31,$5.72,8
+394,Ledner-Jacobson,Io4qQGRB,58,69,$3568979.09,$2.50,$3.75,68
+395,Purdy LLC,5jJ2lqfykEV,52,33,$1404646.09,$3.91,$5.28,45
+396,Bartoletti-Schiller,uoUO0Z,15,22,$1689547.65,$4.02,$1.15,74
+397,Mante-Blanda,gvdXUcIw,74,14,$3438200.86,$3.26,$6.08,58
+398,Gleason-Hayes,tI89R1X,48,81,$3449404.12,$8.12,$3.50,15
+399,Cremin-Koss,e7q1Hob,26,60,$2885770.58,$8.73,$4.69,12
+400,Huels Inc,ie9Tzl3cA,99,4,$5508253.99,$8.47,$3.53,21
+401,"Lehner, Heaney and Schumm",OBd3Qn,87,76,$4215678.74,$8.71,$9.09,53
+402,Runolfsdottir Inc,AsRzLlEZoEL,82,34,$6182411.55,$2.40,$5.04,45
+403,Turcotte Inc,XANFtRGCJLs,85,51,$5905211.53,$8.62,$8.39,70
+404,Batz Group,m4ZY2xljOKt,7,15,$5817175.30,$0.82,$7.89,19
+405,Considine-Rosenbaum,lXt80qQ,94,48,$3081589.48,$5.55,$3.03,3
+406,Olson LLC,IsKKQ5hzIYq,61,88,$6088879.44,$7.92,$6.99,81
+407,Haley LLC,lDOSOT6vM,24,88,$4849633.33,$3.47,$0.57,60
+408,Mohr LLC,1vEJqHbWY1f,19,40,$4219664.61,$9.77,$3.38,71
+409,Nikolaus Group,ixknH2hVgcd,1,54,$5269654.86,$0.78,$3.08,32
+410,"Stanton, Bechtelar and Runte",cHWZI2K33L2,87,79,$1192645.98,$4.99,$4.07,15
+411,Heathcote Group,T6BnTCM7cWSM,74,63,$387195.92,$8.45,$9.83,24
+412,Fritsch LLC,KIaiu1i,92,13,$4136162.34,$1.05,$7.38,26
+413,Gibson LLC,HB0pCFZ,0,95,$2281643.01,$7.98,$3.88,24
+414,"Schroeder, Bosco and Schiller",CvGBjE6xyiI,92,25,$2379220.35,$2.94,$8.92,100
+415,Koss-White,7xUyOGZ,87,42,$3386611.15,$9.20,$3.25,57
+416,"Gulgowski, Schumm and Sanford",39UqJjA7vkzm,5,48,$1579898.42,$7.62,$3.00,92
+417,Vandervort-Nicolas,lUTN0kpiWjDv,56,72,$7488143.01,$4.70,$6.67,62
+418,Jaskolski Group,iICoqIFf06k,21,8,$3432035.83,$7.52,$1.40,22
+419,"Little, Olson and Kris",DkVoUBoY4O,9,5,$8862043.87,$3.81,$3.30,53
+420,Thiel Inc,ql4P5LTASE,50,71,$817774.58,$2.42,$5.50,13
+421,Heathcote LLC,UMyU6e99,5,99,$5454894.31,$5.19,$0.70,50
+422,Spencer Group,EURa4X8caA,6,76,$8693647.97,$1.34,$1.05,54
+423,Krajcik and Sons,2XjwHjQ,49,97,$4556749.66,$9.48,$4.59,87
+424,"Luettgen, Okuneva and Carroll",Iw1ZrTUW,48,15,$7224850.66,$3.86,$9.47,10
+425,"Kautzer, Zieme and Wilderman",DBBEFxZE,18,74,$5051536.59,$9.62,$6.68,22
+426,Bernier-Ledner,4mXgsPY9P,63,63,$2321783.03,$2.21,$7.56,43
+427,"Sanford, Kshlerin and Heidenreich",Bu6Ueioz4i3,48,25,$3997630.28,$9.78,$6.42,38
+428,Runolfsson and Sons,8SD6gzVQ,85,66,$8495154.46,$8.77,$1.11,51
+429,"Herzog, Schinner and Herman",fisFPkH9V2,10,88,$8476849.61,$6.33,$0.94,73
+430,"Cremin, Grady and Schaefer",RsmV93yZY8,67,88,$4587877.98,$0.26,$2.90,51
+431,"Dach, Mertz and King",LEUXOqjeq,44,56,$1189807.08,$9.14,$9.00,73
+432,"Satterfield, Lubowitz and Hessel",lTOHLxmLog,6,6,$8031144.36,$1.43,$4.46,84
+433,Homenick-Kulas,3sPzWWW7K6Oe,8,74,$8855736.69,$6.29,$2.06,16
+434,Armstrong Inc,lSSbTuiCuUU,86,26,$378274.00,$8.10,$9.91,1
+435,Jakubowski LLC,J9M21CSH,87,12,$697595.72,$3.51,$3.72,25
+436,Halvorson-Davis,GnHe03OVT,73,23,$300953.42,$7.57,$6.38,10
+437,Blick-Ritchie,QlUmObC,69,35,$2647871.53,$4.69,$2.28,53
+438,"Maggio, Effertz and Conn",ScZjz3ymnypI,85,13,$3716097.23,$7.89,$1.17,92
+439,Stroman-Mayert,R5gE0Xy0ZL5y,91,44,$4975981.04,$2.30,$1.67,91
+440,Predovic-Jones,Q2URrX,57,53,$3657889.71,$3.40,$6.25,24
+441,Littel Group,bYkmmViBSm8M,2,29,$681459.07,$0.92,$7.07,38
+442,"Schumm, Hoeger and Harber",jR6BwZmKdj,40,33,$1963659.73,$3.15,$0.15,7
+443,"Goodwin, Schimmel and Rempel",AhCquVPhTf,86,34,$1997481.93,$6.91,$7.54,53
+444,Marquardt Inc,J6J8aISHl,13,55,$8608850.54,$9.34,$5.00,20
+445,"Schumm, Frami and Wiegand",ViLLWMLGQdk,39,23,$3521607.19,$3.79,$1.19,46
+446,Lynch-Senger,LIX195GxcgUh,81,57,$5445136.30,$7.41,$6.38,27
+447,"Wilderman, Zemlak and Schuppe",RtVxqihvaoF,86,12,$7711331.65,$5.48,$7.47,8
+448,"Schinner, Howe and White",9ilwqqyGpn5A,22,11,$6889408.22,$5.59,$8.10,70
+449,Collins-Stiedemann,DSAGnbq,25,68,$1634310.16,$2.36,$2.35,96
+450,Keeling and Sons,Ax9ALVuFpn,93,90,$1209718.42,$2.50,$4.18,75
+451,"Ryan, Parker and Boehm",uQ9qOrgWi,62,19,$8765245.25,$6.97,$1.18,38
+452,"Collins, Roob and Maggio",bQF2u7,95,42,$898136.44,$6.55,$3.01,13
+453,"Haley, Miller and Connelly",217uaz,30,27,$3105692.76,$3.76,$5.71,48
+454,Hansen-Bode,CQbwD4GpRd4,69,72,$3930728.01,$1.68,$7.13,32
+455,Boyle LLC,djTjni2em,82,49,$2941673.09,$8.14,$3.77,24
+456,Lehner-Hickle,zDnPIXVAy1w,75,23,$4712048.85,$9.04,$1.49,83
+457,"Ferry, Price and Cartwright",tCjxXUfic7,100,41,$3256992.95,$4.88,$2.09,52
+458,"Reinger, Spinka and Jast",IKA2evWh,15,99,$8748763.18,$7.70,$1.13,88
+459,Strosin-Wilderman,IIHkjy,82,67,$7202383.90,$5.17,$9.30,57
+460,Crona-Funk,KFAkmMeg,99,91,$7493842.31,$5.64,$8.79,8
+461,"Wuckert, Leuschke and Windler",Me9AesSy,50,57,$3054032.51,$8.73,$4.10,22
+462,Altenwerth-Koch,DtrgFdtMWtnE,41,20,$1751244.22,$6.61,$3.50,94
+463,"Grimes, Streich and Heaney",n10yfPzuvtB,3,82,$7252176.22,$7.18,$7.35,27
+464,"Witting, Haley and Koss",aIFlAF6d1B,42,45,$3443267.67,$3.36,$3.95,4
+465,"Rice, Kuhn and Schmitt",iI7YE6,63,8,$8985708.39,$1.19,$9.12,45
+466,Ryan and Sons,vSx162,25,16,$4647858.22,$7.38,$7.62,63
+467,"Russel, Kilback and Lemke",7TahIeR24hk,0,93,$6126068.44,$2.62,$9.70,75
+468,Langworth-Russel,2PXv6Ths,17,50,$2378930.20,$8.94,$0.67,45
+469,Homenick LLC,ajbguF3,47,31,$7080103.55,$9.56,$1.21,76
+470,Shields Group,uBwGFCKZNm,46,40,$2220393.54,$1.89,$8.27,21
+471,O'Connell Inc,EYpUtOW6w,68,89,$1584107.46,$8.75,$0.06,57
+472,Schmitt Group,WIugW7CML,41,98,$7830476.80,$1.26,$6.04,34
+473,Ritchie Group,a8NOaXxCdH,80,6,$5858962.46,$2.40,$8.24,5
+474,VonRueden-Hansen,oQjX5SDL2V,96,67,$6902578.92,$9.14,$7.65,28
+475,Kulas Inc,pHcoD4IEO,21,98,$6897792.53,$8.06,$8.30,91
+476,Mayer and Sons,MQGKjL,51,11,$1206182.54,$2.21,$7.84,69
+477,Bogan Inc,lBuGRc1DE4B,98,52,$2817174.16,$8.04,$6.52,24
+478,Terry Group,xxsnKCJ,92,95,$455300.36,$5.53,$6.60,64
+479,"Leuschke, Kulas and Bergstrom",JbCn7L,70,19,$5517664.04,$0.15,$7.68,46
+480,Kuhn LLC,arVvNkNbZFrg,16,90,$1926499.34,$9.35,$0.03,81
+481,Runolfsson-Conn,eYOQzu4F0dfE,24,90,$3128091.46,$9.63,$4.91,63
+482,Purdy LLC,QJiuxH,100,64,$4031629.77,$9.04,$5.26,12
+483,Hammes Inc,PKaNgqI9QC,0,21,$3250686.70,$1.86,$4.50,16
+484,Mann Inc,7qfkAXzB8g,6,32,$2420005.80,$2.41,$2.30,78
+485,Gusikowski-Wunsch,tBto4Z,93,53,$2197859.42,$8.34,$2.84,21
+486,Little LLC,n2yM15yW8,38,36,$8024678.37,$6.43,$7.30,26
+487,"Abshire, Kirlin and Monahan",WnE1aHHp,39,73,$97878.52,$7.92,$4.13,77
+488,Keebler-Cormier,ef5CJVaQmHh,86,15,$2524848.53,$7.72,$5.94,86
+489,Hudson-McClure,AksWnA23cD,8,82,$4769471.14,$2.63,$9.38,32
+490,"Turcotte, Fisher and Zulauf",zYMptLB,54,89,$6548767.27,$4.51,$1.94,34
+491,Konopelski Group,HkaEN731rP,8,72,$6188016.45,$9.53,$5.09,63
+492,"Wilderman, Lesch and Bode",cVQnNTfd2,48,33,$4239536.43,$0.04,$2.50,71
+493,Grimes LLC,bt9b99zQ5U0,71,42,$389212.94,$2.99,$4.85,62
+494,"Grady, Von and Torp",rs0Dy6FeyT,44,22,$6319824.02,$2.50,$8.26,55
+495,"Ritchie, Boyle and Conn",282tgSl2Q3H,70,99,$8301218.04,$1.91,$8.10,72
+496,McCullough-Collier,5PKpEapr6q,36,95,$6716632.26,$9.44,$5.75,11
+497,Abernathy-Jones,QpJShC,57,87,$7934956.85,$4.43,$5.84,3
+498,Lemke and Sons,v2UxY2N4aFT,56,46,$1602074.53,$4.76,$1.54,42
+499,Kihn-Farrell,CFFDT8Q,33,31,$5890574.43,$6.18,$9.45,56
+500,Kassulke-Kassulke,zqfYVtT,69,96,$6895820.52,$8.93,$5.00,77
+501,Gaylord LLC,xyNbHI,84,61,$1300750.87,$2.90,$9.44,85
+502,Paucek-Cassin,iwghvnS,38,59,$6909502.46,$9.16,$9.93,45
+503,Borer-Feeney,SVjFiukIg1ja,23,8,$6847701.97,$4.37,$4.08,56
+504,"Prosacco, Gottlieb and Mills",4564wPquKvVW,56,89,$8521197.16,$5.02,$9.74,51
+505,Rau and Sons,syekBi,66,45,$3711664.09,$6.60,$3.15,47
+506,Cremin-Williamson,BtUeHQ,23,41,$5862950.70,$1.95,$5.84,35
+507,Barton-Wyman,ao4acpgb8W,28,59,$1013359.20,$5.28,$4.90,79
+508,Hettinger Group,7495bvD,33,3,$6145737.95,$2.57,$3.03,13
+509,Reinger-Cassin,dLhZzqU3JrHt,68,86,$5706702.51,$9.21,$3.72,81
+510,Price and Sons,GAjPsCuv,62,9,$5704829.61,$4.07,$3.81,61
+511,Nikolaus-Moen,t3gJlVeCx,65,91,$6848916.75,$1.87,$1.02,19
+512,Feest-Mante,7uGkb3dpf,34,42,$6860149.84,$3.30,$7.26,4
+513,"McLaughlin, Nienow and Gleason",dt4ucvnzln8,54,8,$5998791.16,$1.46,$7.05,55
+514,"Moore, Smith and Dach",X8l3MFKJ,1,1,$5138142.20,$3.29,$8.53,71
+515,"Block, Stracke and Maggio",mJtTi9dlMt3X,72,20,$8056993.19,$1.18,$4.16,4
+516,Watsica Inc,5cNVOU,27,62,$6198184.58,$8.68,$9.48,36
+517,Windler-Hansen,HVj57p4YIY,32,51,$8418508.76,$1.80,$0.57,0
+518,Feest Inc,tm288polIh,66,87,$4363383.13,$4.28,$6.11,82
+519,Schultz Inc,OMmdfqBJJK,51,56,$6111728.78,$0.30,$0.26,46
+520,Marvin-Emmerich,zrXZX4gpEiG,99,95,$7704871.86,$7.77,$6.86,78
+521,Bashirian-Schamberger,TOWxORpEwagu,68,87,$7139072.03,$1.45,$6.85,2
+522,Hilll Inc,sDtTJGkQRHh,6,94,$5566663.22,$0.16,$2.96,16
+523,Glover and Sons,rEJPIHcv4b,11,88,$6010436.58,$4.14,$8.92,77
+524,Thompson Group,X4pZYR,12,8,$1672259.92,$8.94,$2.23,53
+525,Gibson Group,N0UzZXle,0,2,$773348.33,$2.09,$7.12,2
+526,Jacobs Inc,1PaFYvAOqQEM,49,100,$785395.97,$8.31,$2.22,83
+527,"Langosh, Mueller and Feest",gBq3YRJfvy,75,80,$1472498.98,$4.70,$2.79,48
+528,Predovic-Towne,CRj5sr,55,71,$1064760.92,$6.73,$8.52,9
+529,Berge LLC,ykkDej,68,52,$8791541.89,$7.62,$4.94,50
+530,"Larkin, Altenwerth and Rutherford",sjTQZPb9C,4,58,$3660052.34,$9.90,$5.31,85
+531,Emard Inc,rXG5WHfF,10,99,$7333824.02,$7.54,$8.47,2
+532,Mitchell-Zemlak,TyghZ8,35,99,$2377760.35,$2.24,$7.47,61
+533,"Cruickshank, O'Reilly and Thiel",BZLkkd49eE,25,96,$529144.51,$8.19,$7.91,27
+534,"Dickinson, Boehm and Hoppe",7P3qWuBRg,45,70,$5800223.06,$8.24,$5.16,68
+535,"Mayer, Hudson and Murazik",wmE6LA,97,49,$592564.97,$9.17,$3.28,57
+536,Corkery-Rice,6Tjm6DkaJd2a,58,83,$4175008.78,$8.48,$8.17,49
+537,Murray Group,dkZeum,39,91,$579385.96,$2.29,$4.14,59
+538,Crona-Lueilwitz,PkBzzkGz,44,56,$2814397.57,$7.96,$1.21,64
+539,Jones Group,udwSa1j2fD,82,20,$4567532.39,$0.53,$0.96,49
+540,Crona LLC,VBOOQwzCJAhb,61,100,$2819469.54,$2.54,$4.78,89
+541,Metz Inc,D8LMROUW2V,34,23,$4007960.15,$6.97,$5.55,88
+542,"Lueilwitz, Rempel and Considine",T5TPttAQ,79,52,$7728200.16,$6.90,$3.51,84
+543,Reichel and Sons,FoWfT4X9LBu,76,48,$8306340.27,$3.79,$7.11,75
+544,"Carroll, Homenick and Olson",AeQLyXB5,84,36,$3759150.97,$3.76,$7.56,96
+545,Nader and Sons,JC14fXNkcv,92,79,$4810180.09,$3.90,$8.43,15
+546,Schowalter LLC,T2NGSeZ5TfK,44,75,$6815259.43,$1.26,$4.21,86
+547,Schowalter Inc,7Tk1ebY8T,63,96,$576522.25,$3.03,$8.37,84
+548,Murazik Group,qB3G7i,39,29,$8049039.71,$2.33,$2.61,67
+549,Boyle-Kunde,Qgcykt2Pmpeo,40,12,$7058504.07,$0.03,$4.07,10
+550,Ullrich-Leannon,PEotTH,39,39,$4139628.47,$5.26,$8.31,72
+551,Moen Group,0rQVr2,64,28,$8816972.36,$7.51,$5.11,91
+552,Langworth-Lemke,h6vmLRjv,47,4,$6300497.24,$5.44,$2.23,77
+553,"Dibbert, Schmitt and Muller",fBzMPhaEf,21,25,$5464061.93,$5.56,$7.39,11
+554,Kertzmann-Huels,AenVHOx,1,58,$6540961.90,$5.63,$9.28,50
+555,"Boyer, Heller and Torphy",ACvvruPj,19,87,$5982460.94,$9.67,$4.94,40
+556,Green-Funk,dLNdgkXWRi03,14,100,$1720623.45,$7.45,$8.93,39
+557,Hahn-Senger,7ZJQols,96,16,$6029718.60,$0.50,$9.94,12
+558,Roberts-Dickinson,a2BSGj4GESQ,28,53,$3609432.82,$9.13,$8.14,54
+559,"Robel, Rutherford and Hills",ilJIkrROB,25,80,$8319756.09,$8.26,$8.57,9
+560,Becker-O'Conner,OplZpHiPtWU2,79,70,$7740719.67,$5.80,$1.41,26
+561,"DuBuque, Fisher and Larson",1DflaFtF4oPf,56,53,$1301987.32,$3.12,$1.37,87
+562,Pacocha-Jacobs,n1PDSxwUQS,27,58,$1180689.67,$0.16,$0.05,23
+563,Frami-Koss,NjkLIVC,83,84,$5657641.07,$9.77,$7.57,17
+564,"Schmidt, Yost and Stark",PImSd6,21,43,$1984940.63,$5.03,$9.19,33
+565,Bahringer-Purdy,uA6Ox9B0L,25,34,$6457216.67,$3.13,$5.96,88
+566,Kohler-McDermott,55bo8R,51,51,$6458789.69,$2.11,$1.46,88
+567,Gulgowski-Jenkins,G9Dg78xKAug,90,26,$7317787.30,$3.28,$8.76,4
+568,"Deckow, Walter and Hilpert",0if5rI,54,21,$7006697.09,$8.97,$2.42,15
+569,Klein LLC,BRR72Kc5,27,45,$8377893.16,$0.38,$0.88,55
+570,"Volkman, Mueller and Boyer",Nddb04,85,57,$7675652.02,$2.52,$1.17,78
+571,"Gutmann, Mayer and Hilll",brSA0W,29,66,$8130765.64,$9.46,$1.21,49
+572,"Jones, Aufderhar and Pacocha",zGqLNZbbY,56,52,$4717825.52,$5.89,$2.41,15
+573,Watsica and Sons,BW0KNup,80,21,$3436249.55,$5.20,$7.70,26
+574,"Abbott, Nicolas and Kilback",Ljn2VhAJlkpp,4,61,$5577528.82,$0.95,$4.66,6
+575,Schultz-Bergstrom,ck2cY98oiHE,49,84,$4901195.64,$8.18,$0.20,47
+576,Gulgowski Group,ojOY5gfNf,50,75,$4811988.02,$8.02,$1.06,13
+577,"Metz, Rogahn and Yundt",sxd3qf,1,23,$2137697.89,$6.99,$1.67,46
+578,Bradtke-Bins,Sm2mBwmb1FdG,55,69,$8659739.05,$2.37,$5.71,98
+579,"Funk, Wyman and Smitham",IPD3gC,1,3,$4929550.87,$5.69,$1.40,89
+580,Stokes Group,2M5un2,16,60,$2572833.02,$8.55,$1.68,64
+581,Corwin-Connelly,iRJM6o5,25,53,$2592727.04,$3.47,$9.32,61
+582,Bechtelar-Pollich,62xEkZJf1Um,65,67,$6559907.05,$1.57,$9.55,59
+583,Beier-Kuhlman,cr4jEygFR,2,95,$5184637.62,$9.25,$2.15,40
+584,Kilback LLC,3TtTR6,64,62,$3410483.51,$3.30,$3.31,98
+585,Feest-Heathcote,cgUDzJY,60,88,$8296016.39,$0.54,$6.30,7
+586,Bauch Inc,to7JeNat9,74,24,$8652807.77,$9.54,$3.83,70
+587,"Legros, D'Amore and Hansen",wrI5ukXANgJB,94,42,$4293284.75,$8.86,$0.04,38
+588,"Adams, Marks and Kozey",38D0a5NUNNAf,55,1,$2206019.58,$6.30,$2.29,64
+589,Denesik-Anderson,pNTnqEJtc,43,46,$4203473.60,$6.03,$1.01,82
+590,"Herzog, Gleichner and Breitenberg",enDqYsLvqg4N,99,69,$333108.95,$1.87,$0.32,73
+591,Hane LLC,ohz9Y5a4rPE,36,7,$6059968.39,$0.07,$2.38,48
+592,VonRueden-Howell,KeByfFz,67,83,$5865996.75,$4.59,$9.54,77
+593,Pfannerstill-Hermann,ql1SpGvatb,17,10,$2646044.27,$4.08,$0.17,11
+594,Larkin-Hayes,KQG7Omh7ZK1,25,60,$2046023.96,$5.94,$5.02,35
+595,Boyer Group,PkjgIkni2rri,39,91,$6884205.38,$9.86,$9.25,74
+596,"Gerlach, Ryan and Schulist",77yj7ds3,4,12,$5868452.38,$7.87,$1.94,42
+597,Mann-Bins,PFhgmDG,86,22,$506824.57,$4.96,$4.25,69
+598,"Abernathy, Homenick and Marquardt",vPJBsB29e,74,58,$6191212.92,$4.57,$6.26,89
+599,"Bailey, Huels and Corwin",6qJajOgCNV,99,20,$474434.76,$9.35,$4.09,40
+600,"Hickle, Pagac and Terry",ApGBsAWG5,0,63,$2346026.69,$9.37,$7.44,90
+601,Bednar-Ernser,mVPpDthBc,23,41,$4299466.52,$9.55,$8.31,67
+602,Carroll-Ward,I8lPdsfAXw4,80,99,$5134027.58,$2.01,$5.29,91
+603,Grimes-Johnston,8k3g6VMN,50,69,$4176579.66,$4.86,$4.24,51
+604,Walker Group,0Ct5ZHmSB5,88,50,$36262.60,$6.31,$9.29,15
+605,"Heller, Farrell and Hermann",ThtUI7C4,79,17,$4273308.60,$5.87,$1.92,99
+606,"West, Champlin and Hermann",o6xan3FZ,45,35,$3373215.33,$6.76,$2.28,84
+607,Armstrong and Sons,SbXMWuBU,31,46,$153969.10,$2.89,$1.89,1
+608,Ullrich-Dickinson,FZoIbMKD,71,55,$3097847.41,$0.61,$6.76,10
+609,Doyle LLC,ylmi6HU7vCmn,65,23,$2633770.58,$1.97,$3.53,12
+610,Predovic Inc,okULvTMMT,5,41,$8042608.86,$4.10,$6.99,97
+611,Ward LLC,gdb3jPkczf,53,18,$7141695.88,$3.57,$2.27,39
+612,"Ritchie, Brakus and Effertz",L0Xfj233,26,41,$7863825.15,$1.68,$1.19,7
+613,Cassin-O'Connell,uu5s8pQCi2zr,56,76,$212587.26,$0.85,$6.70,53
+614,Kerluke and Sons,1IVCv4,20,93,$3627538.09,$1.72,$8.33,7
+615,Jaskolski-Ortiz,zRXz73hv,13,20,$3769466.36,$2.05,$1.35,90
+616,Dach Group,28Mr4L9pZ,92,79,$2614871.17,$3.66,$5.01,69
+617,Howe-Batz,Z2EqWS9jt,59,27,$6966904.09,$3.64,$2.98,58
+618,Kuhn and Sons,qcxoSxnK,92,40,$4194344.08,$9.48,$8.57,81
+619,"Altenwerth, Heller and Sipes",IAqEwgk,4,43,$7423923.21,$4.89,$9.94,13
+620,Mosciski Inc,734GddM,80,80,$6214819.75,$0.79,$9.58,42
+621,"Davis, Bednar and Jaskolski",o4VXv0zJeF1,52,30,$6509991.99,$1.68,$3.89,71
+622,Moore-Pagac,wRvRJjN,44,15,$8129340.19,$0.98,$0.41,73
+623,McCullough-Runolfsson,wOLVoAT,90,61,$1385857.17,$0.31,$4.61,67
+624,Lehner Group,0zUjYxM,61,20,$8996940.75,$7.39,$5.22,22
+625,"Mosciski, Heathcote and Koelpin",D5AOyyYdtds,61,77,$1333991.38,$8.28,$0.47,51
+626,"Will, Hudson and Swift",MHjCwXdh,18,25,$2547546.65,$6.31,$2.43,98
+627,Murphy LLC,cYYCRVp7BLRE,57,91,$7726616.97,$3.81,$1.32,28
+628,Kreiger LLC,8yvtcR0UkbA,58,86,$8395809.86,$1.21,$1.96,55
+629,"Wiegand, D'Amore and Braun",QIYnLjJlF,48,1,$5759043.17,$2.83,$4.69,84
+630,"Stoltenberg, Terry and Dooley",hsQhjJqZeQ9,66,73,$3672771.58,$9.58,$2.54,6
+631,Homenick LLC,b5iJctxk,99,19,$3782577.08,$0.02,$5.53,24
+632,"Hamill, Connelly and Wisoky",vBp8Jb,46,47,$8672901.80,$0.13,$4.47,98
+633,Parisian-Ward,Y0DoMj51,14,59,$7139344.15,$0.17,$9.42,60
+634,Brown Group,tbSEs9q,93,81,$4479908.25,$8.60,$1.25,68
+635,Jerde-Hintz,z9MX8B,4,4,$1669575.31,$2.01,$9.37,5
+636,"Tromp, Dickens and Koelpin",lNmAFm0byj4j,62,4,$3269732.29,$6.09,$2.22,7
+637,Hammes and Sons,nZQW41u9894,19,75,$4677675.82,$0.80,$0.21,88
+638,Heaney LLC,tefDlxj,76,88,$8064030.84,$7.62,$9.35,59
+639,Schuppe-Rolfson,IuBant,13,27,$3042080.00,$1.92,$9.53,92
+640,Heller LLC,Cv1o2HID,59,60,$6698438.93,$9.95,$4.52,1
+641,Yost-Bins,vourMOL2EGCU,48,69,$5526999.94,$5.01,$6.33,25
+642,Cormier LLC,eBhFHBNkyo,36,27,$4871467.42,$6.85,$8.26,13
+643,Auer LLC,hAA0M3ZC,68,95,$2698102.50,$0.94,$2.26,4
+644,Shanahan Group,YmbrVM9O,1,43,$2696573.70,$6.14,$4.01,16
+645,Crooks and Sons,Vf7m03g,16,31,$4440908.24,$3.18,$7.19,27
+646,Flatley-Terry,gwMYKKn,12,16,$8394742.78,$9.88,$0.52,86
+647,"White, Fahey and Quitzon",Z7YQ2G5tC4e,58,8,$95351.72,$9.27,$7.20,50
+648,Emmerich-Wilkinson,HDHsqT,76,84,$2448477.50,$8.79,$2.27,79
+649,Runolfsdottir Group,dQs2UJTz,61,81,$4577098.66,$8.35,$0.45,37
+650,"Bradtke, Friesen and Jenkins",44BD1e1PuKuy,3,71,$1375959.24,$6.46,$5.62,46
+651,Lueilwitz-Rice,2Fx7Lb0T7U5,92,29,$2873278.81,$5.61,$4.49,46
+652,"Swift, Kilback and Funk",sFxrfQGm,13,100,$6795495.34,$5.40,$0.74,39
+653,"Friesen, Cormier and Hamill",Ilz2AUX,4,64,$5487718.65,$8.68,$4.13,84
+654,Hartmann-Bogan,Izhh66,0,1,$5993941.29,$5.70,$3.43,88
+655,Von-Hackett,KIXGsCxSYv,70,52,$4770599.84,$4.36,$3.87,54
+656,Dietrich Group,zvyS3EbY,61,72,$1784965.31,$3.67,$8.05,40
+657,VonRueden-Crist,ua32n0xP3x2E,16,18,$7158177.58,$2.51,$9.40,58
+658,"Wiegand, Johnston and Windler",yb7l44JPs,84,34,$4219073.98,$7.25,$7.90,43
+659,Powlowski Group,vi0vqGNdtPYF,99,47,$286242.44,$5.29,$8.45,99
+660,"Schoen, Conn and Farrell",OTUCRDEByC,27,73,$7188405.25,$8.82,$5.72,0
+661,"Little, Waters and Aufderhar",4bC9Pkngb04v,49,39,$5062907.83,$6.30,$1.05,4
+662,Quigley Group,pRU6zOtnVgQ,21,5,$6510633.67,$3.23,$6.13,50
+663,Strosin-Zieme,TgaNalXiWxQt,71,38,$3060771.98,$5.78,$2.40,56
+664,Trantow and Sons,JJaUOdMiV,7,42,$2931480.68,$9.76,$6.34,90
+665,Thompson and Sons,rhBDw66dt,13,4,$1778068.56,$8.73,$0.79,16
+666,Smitham-Wilderman,tHCQHfMm1aR,28,7,$6721540.76,$6.51,$5.32,79
+667,"Raynor, Toy and Waelchi",VLJowcXgF3e1,39,64,$3110990.14,$3.32,$6.13,100
+668,"Barrows, MacGyver and Hettinger",UoPTugQ7z,53,60,$6622446.62,$2.75,$4.14,69
+669,Homenick Inc,zCWebFHx4f,73,68,$6822417.03,$9.99,$2.47,58
+670,"Dicki, Wiza and McClure",Yzkd7JbuFCY,78,66,$452844.89,$7.50,$0.32,81
+671,"Swift, Kuhn and Schoen",GkOjaKO8bHS,27,98,$8534540.09,$1.16,$4.77,54
+672,Ledner-Wiza,5qQkCPJ,50,6,$6150380.32,$8.80,$4.21,80
+673,"Little, Osinski and Bechtelar",5r039go5NU64,8,59,$694248.77,$9.81,$0.39,42
+674,"Smith, Johns and Hudson",LTonT4EKGCS,93,95,$1551805.24,$9.29,$0.05,65
+675,Klocko Group,M46f2c,96,5,$5222617.70,$3.04,$4.76,85
+676,Terry Inc,VMz0roi,41,32,$3913654.45,$0.35,$8.14,70
+677,Hudson Inc,JuX6LLWsRE,19,56,$3469190.88,$4.59,$1.53,52
+678,Grimes-Fisher,rYRptDc0K,38,10,$729149.77,$1.03,$9.06,33
+679,"Stamm, Swift and Champlin",hC6O9p,14,42,$6311067.88,$3.41,$1.08,33
+680,Ziemann-Gleichner,135lgeV,21,27,$627435.96,$1.66,$1.05,51
+681,Balistreri-Schamberger,DxfIMl,48,11,$6524501.13,$0.60,$8.06,30
+682,Kling-Pagac,ex9IAxUgbTd1,0,56,$1169561.39,$0.18,$1.06,69
+683,Hirthe-Morissette,DV3Sbcx9Ef,41,81,$2060108.59,$5.42,$7.03,0
+684,Trantow-Predovic,rullPYoY3j0,31,98,$6114236.80,$6.87,$4.75,98
+685,Jast and Sons,YiBm0SVTtRU,86,10,$5417831.03,$8.39,$9.17,87
+686,Stoltenberg-Emmerich,ZWHGfL4ZoVOb,85,49,$8674384.18,$4.69,$8.33,31
+687,"McGlynn, Bernhard and Turner",I8vjA2HYoAK,98,80,$8451216.14,$8.47,$3.27,54
+688,Lindgren LLC,JvkzXM33,76,96,$7582086.94,$6.77,$9.76,52
+689,Klocko and Sons,VgFmEjH,73,54,$7280431.43,$5.01,$9.08,58
+690,"Daniel, Cronin and Gibson",0uTeS3Xk9oaE,20,93,$3432068.65,$0.36,$2.70,33
+691,"Lubowitz, Rice and Kautzer",l1eicacGAyQM,52,95,$3041892.13,$0.47,$0.55,43
+692,Stehr Group,Fapb2aHUO1,22,80,$4735461.68,$8.14,$2.13,97
+693,Kunze-Bins,9aS5cbu,5,89,$5936073.82,$7.00,$0.52,87
+694,Stokes and Sons,jBkIu1jJ0H,87,95,$1930989.18,$7.02,$1.91,89
+695,"Stehr, Mante and Kris",s6YeQbqg,38,37,$1929394.89,$6.19,$6.74,37
+696,Hagenes-Stokes,A53Hdl86v,0,4,$3506105.54,$9.34,$0.50,92
+697,"Emard, Leuschke and Tromp",XqkBM6,14,93,$1150605.35,$6.15,$9.49,83
+698,"Bosco, Dietrich and Kunze",jIZo7aWi4a,16,56,$2073686.39,$8.97,$7.94,4
+699,Koepp-Gibson,F2SXOaJG,55,77,$4694557.58,$0.85,$7.19,46
+700,Torphy-O'Hara,VyZB2AsWt81x,83,17,$8428392.69,$3.23,$0.47,73
+701,"Littel, Wisozk and Bechtelar",R2vrlGgGb,16,2,$8079343.40,$9.98,$9.77,10
+702,"Swaniawski, Dare and Boyle",9p9gjh,63,13,$4893669.77,$1.40,$3.93,4
+703,Thompson-Bergnaum,UE4N2h0ZIXl,26,88,$4200619.15,$2.29,$7.13,43
+704,"Ebert, Mertz and Weber",joZlg1PjzE,23,12,$6954457.99,$6.08,$7.15,20
+705,"Rogahn, Lockman and Bashirian",BxhpNT,23,31,$6510514.36,$0.88,$2.72,36
+706,Hilpert and Sons,CuRgVnR,79,69,$2373588.08,$9.08,$0.58,89
+707,Cormier and Sons,rc9A0s,54,48,$4299620.87,$8.06,$6.92,78
+708,Klocko and Sons,YvvSKsr2,4,87,$1778737.60,$2.66,$2.12,82
+709,"Borer, Hane and Grimes",Wam3JQ0,57,96,$1129852.53,$7.27,$0.53,54
+710,Veum-Bradtke,Y4JuoxM,9,15,$8853890.34,$6.44,$1.36,41
+711,"Lueilwitz, Hagenes and Schamberger",QSUFv2JO0x,24,77,$7688167.06,$0.44,$5.53,64
+712,Kshlerin and Sons,oiHYYNbWJG,19,25,$4290410.99,$9.26,$2.05,58
+713,Pacocha Inc,0eP7Z1jm,53,53,$525730.06,$1.66,$2.51,2
+714,Torp-Upton,NTVQYyB,72,0,$5559473.33,$4.08,$7.93,49
+715,Jacobson-Mayert,eUIjS9hiTR,64,47,$1454723.95,$8.65,$8.45,92
+716,"Jacobs, Robel and Hagenes",7612dpF5qf2z,12,43,$5880665.10,$0.34,$5.07,50
+717,"O'Hara, Stoltenberg and Harvey",6WlFmQBZr7M9,46,29,$4160674.68,$5.56,$3.77,87
+718,"Murazik, Marquardt and Barrows",yWZMf9kSPU3t,36,59,$8520853.25,$1.42,$5.93,82
+719,"Gleichner, Gottlieb and Heaney",QnV977Jc1,2,70,$8115837.26,$9.23,$2.50,18
+720,"Cormier, Hills and Aufderhar",MlSRnETJ3Sks,16,60,$4135931.88,$2.07,$0.93,49
+721,Heidenreich-Morar,NCakoil,33,12,$4716117.42,$3.55,$9.04,32
+722,Schuppe Group,1FJovhT,95,30,$3864098.74,$9.50,$3.39,39
+723,"Hahn, Upton and Bergstrom",OoZvDwJlo,45,95,$2476728.12,$8.04,$0.62,76
+724,"Koss, Kemmer and Mohr",AX1ZxTr4j,80,12,$5901750.14,$5.96,$5.86,38
+725,Dach Inc,tC7j3O,95,30,$6416535.45,$8.96,$1.30,66
+726,"Pfeffer, Cummings and Kulas",xhIHVJ,20,78,$4147866.78,$4.28,$8.83,60
+727,"Osinski, Bayer and Schuster",cEx5eM,67,44,$1085953.75,$2.00,$3.75,67
+728,Huel LLC,0ZEmrw,35,22,$4602357.78,$7.50,$2.71,73
+729,Streich-Schuppe,gdmMesQrhm,58,18,$6227500.05,$5.74,$6.65,20
+730,"Wiegand, Hamill and Mante",DJa3j5H,49,87,$6880781.29,$4.72,$3.62,52
+731,Lehner-Dare,oBBU11,24,25,$2178774.28,$1.24,$4.07,75
+732,"Shanahan, Barrows and Jerde",x1U30pDF,31,34,$624202.59,$6.27,$5.80,39
+733,Volkman LLC,jxecWpzIM,90,95,$7843897.79,$6.83,$3.47,31
+734,"Lockman, Luettgen and Sauer",1uP9rXMWJt9,6,43,$3972464.85,$7.34,$3.26,84
+735,Leannon-Johns,yEI1PXvuGORr,2,24,$2595226.80,$2.51,$0.37,18
+736,Daugherty-Hansen,r7tqpwYKzcg9,60,95,$5528494.85,$7.08,$8.27,69
+737,Nitzsche-Hickle,tEg7qAzO,87,94,$717819.05,$9.90,$1.21,62
+738,"Rice, Green and Jakubowski",dnJpLrkMXC,24,67,$7175082.68,$3.70,$9.53,32
+739,O'Hara-Renner,ORK09Ve0hT8,76,50,$5709577.36,$6.32,$9.42,61
+740,Fritsch-Nienow,IghRyrb3Z,77,25,$1879478.12,$7.47,$3.42,12
+741,Watsica-Dickens,jD8lYgO0G,25,34,$3276429.13,$0.30,$9.47,45
+742,Swift and Sons,vGLwmp,23,77,$7169940.70,$1.15,$0.48,88
+743,Hilpert-Gerhold,G6OcCJHjr,72,50,$1930317.08,$1.92,$4.32,10
+744,"Crooks, Dooley and Greenfelder",NnqGdq,25,66,$1852709.70,$3.69,$8.35,89
+745,"Murphy, O'Reilly and Kutch",ZU6hpXp1,36,87,$8958746.63,$3.32,$3.03,5
+746,"Barton, Schuster and Tromp",BWL1W0muJ9d,60,58,$6904611.81,$9.12,$1.51,29
+747,Klocko and Sons,2UHm1TVdsN1,72,54,$3742523.34,$2.72,$9.96,46
+748,Heathcote LLC,mttAdGCE3BYy,16,27,$4327727.60,$6.50,$9.18,49
+749,Johns Group,c9NqAFrd2wTV,45,6,$7310129.65,$4.47,$3.15,22
+750,"Wiza, Daugherty and Hyatt",QLFO0j35,29,26,$5218523.44,$3.84,$8.94,76
+751,Beier Inc,qInRXQ4jZ,45,47,$8217231.08,$4.62,$5.59,26
+752,"Labadie, Feil and Metz",0jCIwCOC3B,73,22,$249230.30,$7.51,$2.51,14
+753,Fahey-Kunze,KvNrwal8RXnr,83,80,$4345749.14,$7.98,$0.41,62
+754,"Baumbach, Gaylord and Rolfson",LuoRVT,1,38,$7154253.45,$7.26,$8.72,9
+755,"Brakus, Goodwin and Ruecker",eh7Eiwtb,48,57,$5435283.34,$1.59,$0.08,54
+756,"Rodriguez, Zboncak and Spinka",A58NID8Fp8,67,100,$5741081.12,$2.06,$3.81,62
+757,Jones-Crona,XDeG86pW,50,54,$156446.53,$6.58,$9.74,7
+758,Schultz Group,dsdBQSCwmp,100,76,$5139736.83,$9.46,$8.59,18
+759,Zieme and Sons,ovs26RUb7UNO,24,40,$2861284.58,$8.32,$9.60,26
+760,Macejkovic LLC,BwtE9M,21,6,$8671631.77,$4.98,$1.85,64
+761,Schuster LLC,AxNeQNl,48,9,$273717.96,$4.72,$6.60,58
+762,Carter-Fay,zxo8sJ,6,56,$1010313.41,$9.57,$1.57,74
+763,Koss Group,hpnNQhwhlZ,24,65,$1574256.23,$9.99,$3.40,20
+764,Feeney-Quigley,BmlXxz5NlW,27,75,$897463.14,$5.79,$9.51,51
+765,"Kautzer, Stanton and Konopelski",fDnGna,7,84,$942220.70,$2.59,$1.04,81
+766,Mayert-Dibbert,zQivWuwRQSjm,18,93,$833346.40,$5.68,$4.36,15
+767,Bogan-Cronin,vr90UIIE,49,41,$3729925.49,$8.01,$6.62,10
+768,Beer-Towne,AqiMR5z2jGP9,25,1,$985185.39,$5.30,$3.59,41
+769,Hauck Inc,Jl8vnS1cxFsy,68,77,$5352845.84,$0.72,$8.60,89
+770,Wiegand-Ritchie,fSEEmGC6oytz,48,11,$7020825.32,$5.26,$9.85,28
+771,Legros-Reilly,U5Coy85F,81,90,$261303.34,$7.07,$7.05,72
+772,Schoen-O'Keefe,FPFCqgiU,15,26,$1011166.88,$1.77,$0.37,100
+773,"Swaniawski, Stehr and Runte",KNW2bDvwfj,25,38,$555305.74,$3.70,$5.57,45
+774,"Rutherford, Cruickshank and Boyer",na8R9k6xl,11,67,$1888521.66,$9.40,$4.82,58
+775,Bartell Group,fuPG00THV,69,56,$982034.36,$4.74,$9.21,9
+776,King LLC,XcuomVH6S,70,6,$7259601.39,$1.92,$2.46,70
+777,Koelpin LLC,g6qDNM1Z8,7,36,$58327.69,$8.73,$3.52,85
+778,"Adams, Wiegand and Haag",Tt6BYwHDG,48,28,$6958389.43,$5.43,$2.37,55
+779,"Schiller, Bartoletti and Lockman",25mnZAxfjJDn,58,76,$6790764.23,$4.85,$8.92,50
+780,"Maggio, Zulauf and Ruecker",4a90mC,67,30,$5786683.87,$2.42,$2.71,18
+781,Flatley-Hilpert,WDhhgOpkGm,14,41,$5835311.33,$9.07,$9.61,40
+782,Swaniawski LLC,UhAa966jE,10,16,$872526.02,$5.73,$4.31,60
+783,"Hilll, Hauck and West",u1lzpsyN,37,3,$3079218.76,$5.18,$3.26,48
+784,Tromp-Crooks,5tKGeHNF,42,52,$43888.85,$0.91,$5.56,11
+785,Rutherford LLC,0bKgVH3r,58,41,$5281758.36,$1.80,$4.21,35
+786,Kertzmann-Halvorson,dmOvhxUUwi2,41,13,$7062748.58,$1.50,$0.42,36
+787,"Haag, Cummings and Price",rY2D3Q,67,21,$8335481.28,$4.16,$8.05,0
+788,Little-Hettinger,aevJDrEdBg,78,100,$4389940.78,$6.44,$1.72,47
+789,Wilderman Inc,aaIInjLRo,82,44,$2768730.63,$0.19,$2.25,57
+790,Gislason and Sons,jgCFdaTa8,83,66,$2205717.72,$4.05,$7.34,89
+791,Lind Inc,NstSLz,4,59,$5479040.49,$5.05,$8.44,12
+792,"Kuvalis, Bruen and O'Conner",YGGhXChPhbU,64,57,$1838982.58,$1.73,$7.77,84
+793,"Hamill, Rippin and Altenwerth",zPRg6Gvz,6,62,$4752990.57,$2.45,$8.47,15
+794,"Howe, Schneider and Ryan",LzxPfK,7,86,$911658.91,$0.87,$0.96,54
+795,Christiansen-Leffler,jpMZIwjd,19,80,$3845073.90,$9.82,$7.94,44
+796,"Langosh, Langosh and Pollich",BtJnbxASuS,1,75,$3599769.51,$6.98,$8.05,72
+797,"Padberg, Gislason and Langworth",Yuv2Jeo2v1kR,49,37,$8394853.95,$1.21,$4.84,22
+798,Rice-Heller,aQk5jlmBjr,27,81,$7789392.94,$3.41,$8.34,82
+799,Dietrich-Mayert,uwAguRlX298V,28,70,$2809254.88,$7.56,$2.44,35
+800,Kuhlman-Terry,ZZpOSQRoZ68,84,81,$1326546.47,$0.56,$4.34,77
+801,Ryan and Sons,hN5FS9DbgiUe,53,73,$253841.78,$2.61,$4.01,98
+802,"Stiedemann, Gerlach and Denesik",EaI7RC7NzH,54,79,$8024163.63,$1.88,$8.61,16
+803,"Bednar, Fahey and Goyette",DNf1ES,80,80,$5692852.36,$6.17,$2.02,62
+804,Barton-Hahn,3bPdxD,58,88,$5911549.16,$5.62,$5.53,64
+805,"Batz, Rowe and Jenkins",K3VyvKN3,14,28,$1705394.86,$5.16,$6.53,85
+806,Streich and Sons,9xo4n9lCuiQ,22,18,$1691052.04,$4.91,$1.46,49
+807,Mills-Howell,9DcVFqth,24,49,$8392962.17,$1.23,$7.14,90
+808,Ziemann LLC,MvGs0CW,88,27,$5023300.36,$3.29,$5.65,28
+809,"Crist, Cole and Lockman",SJY87fsuVA,98,80,$6341348.05,$4.03,$3.78,74
+810,Wolf LLC,GYqZCIhXB,46,62,$7841179.59,$9.89,$3.19,11
+811,Walter LLC,d2hLhv,13,98,$174536.99,$2.01,$6.84,0
+812,Dicki and Sons,Gvgkzf2V,2,97,$6251024.96,$6.18,$4.00,48
+813,Collins Inc,U3t8xPG,15,39,$5102230.49,$4.79,$9.65,28
+814,Yundt-Russel,DVhNdMh,40,14,$4218768.42,$6.99,$3.89,17
+815,Kautzer-Tremblay,lWqYGdTK,61,11,$3352025.21,$9.10,$5.68,49
+816,Roberts-Tremblay,j3qrsRM2BtNf,46,9,$4105339.15,$5.37,$0.92,32
+817,Kutch Group,JaboUP,56,83,$7383650.73,$0.31,$0.09,78
+818,Gorczany-Klocko,8Cm5NZFwT958,97,13,$58662.88,$8.24,$3.57,33
+819,Heaney and Sons,WffzpHLvP0l0,74,76,$325267.07,$9.73,$9.25,23
+820,Walker-Dickinson,dZdmv7NZE,77,42,$7724347.21,$4.48,$1.65,84
+821,Huels and Sons,s3qWawjH,96,18,$613137.89,$9.05,$9.79,55
+822,"Fadel, Abbott and Quigley",SY5eGyWo,3,4,$5440743.37,$0.84,$5.34,14
+823,"McLaughlin, Murray and Johns",TDqoPpE9u,96,6,$4240107.03,$8.19,$9.33,96
+824,"Hansen, Runolfsson and Jast",wIAVRl0F1zDw,63,86,$5429150.48,$7.89,$2.54,64
+825,Crist-Vandervort,S3m0IGS,17,91,$8712712.10,$1.83,$7.66,54
+826,"Aufderhar, Keebler and Bartell",a3eRHoYK34,80,21,$4469833.89,$7.03,$7.50,82
+827,Runte Inc,uPQndpYm3A,8,34,$3660080.64,$6.26,$9.45,54
+828,"Deckow, Koch and O'Keefe",QV1q2CtV9u,39,97,$7634867.47,$4.55,$4.49,85
+829,"Rice, Yundt and Bailey",fgV2nE1qcOUk,63,47,$3406995.08,$7.59,$2.01,67
+830,Glover Group,noomQzOuw,35,30,$4101797.11,$7.44,$9.46,25
+831,"Marquardt, Franecki and Becker",7ttqU9eH,62,40,$4837625.12,$6.90,$0.47,73
+832,Zulauf-Rohan,yyrKuyBE,51,21,$6869922.42,$3.41,$6.57,0
+833,Franecki Group,6bl0Ld,63,8,$340588.16,$9.97,$9.44,41
+834,Nitzsche and Sons,stDPQ84SXW,62,4,$6030766.91,$9.87,$6.33,19
+835,Jacobi Group,4Q8Za7Wqk,55,65,$8651415.94,$8.71,$5.09,95
+836,D'Amore-Erdman,nmo2uIy47JcS,35,40,$5708178.33,$6.23,$7.73,52
+837,"Berge, Nienow and Klocko",4pK3TgwpZ,41,24,$6651582.30,$3.36,$1.50,71
+838,"Little, Reilly and Beier",ZLJfBqCg,76,59,$8127613.29,$4.49,$6.29,97
+839,"Wiegand, Tremblay and Crooks",NerCU4pKzF,38,25,$618613.83,$2.71,$6.52,74
+840,Gusikowski-Renner,UNukHopWw,86,35,$5015046.15,$7.80,$3.00,76
+841,Dooley Inc,EGShb9,40,30,$5604672.09,$2.60,$6.66,63
+842,"Reichert, Brown and Bergnaum",yuOrHq,68,39,$3961844.82,$2.53,$3.60,78
+843,"Torphy, Metz and Torp",lTfvQrgx7Dfw,58,6,$3575240.60,$0.34,$5.95,26
+844,Lubowitz LLC,I6rFrPa,49,84,$6620761.29,$6.44,$7.63,53
+845,Dicki Inc,C0g1p9wlGoh,36,73,$3537214.05,$1.69,$3.68,0
+846,"Nienow, O'Hara and Kautzer",EPaEGVVw27,87,37,$3110124.85,$4.48,$0.77,43
+847,Altenwerth Group,2sRj8KVkBim,11,31,$3868632.58,$9.77,$3.77,54
+848,Jacobson-Crona,JRsFPnDz7,59,84,$2621314.74,$8.41,$3.02,76
+849,"Schmidt, White and Frami",ajRNU0w5tRB5,52,63,$6737500.98,$8.32,$7.23,47
+850,"Hayes, Stehr and Dach",nUrvkU,64,99,$8136248.85,$4.84,$4.60,100
+851,Crooks-Bergstrom,DX0yuUe3g,85,46,$5392323.11,$2.74,$5.33,70
+852,Crooks and Sons,d9ZCguhcEaHQ,82,92,$2421162.77,$5.68,$6.80,57
+853,Tillman and Sons,yiW3b5,60,68,$2377283.84,$8.56,$3.17,10
+854,Lockman Inc,sEwcPsxQzC,93,96,$514023.55,$6.10,$5.97,61
+855,Rutherford and Sons,XvIWuk3tVPu,80,31,$8642874.60,$2.97,$5.63,99
+856,O'Connell LLC,X3QvQo,66,72,$1206293.86,$7.83,$8.77,41
+857,Labadie-Herman,Tv1mH9,73,78,$1863603.55,$9.49,$2.55,54
+858,"Berge, Goodwin and Raynor",aHO0qVha,80,73,$6210140.11,$2.86,$2.33,27
+859,"Ruecker, Harvey and Erdman",o9hL0S7gBRZ,91,68,$3890733.59,$0.54,$7.77,3
+860,Franecki-Greenholt,2eU1JTs1PT,76,12,$8587494.65,$2.03,$5.64,93
+861,Emmerich-Rempel,BaAn11DZucJ,33,5,$7469484.27,$9.65,$0.21,82
+862,"Schulist, Pfeffer and Toy",sk8mcJ,73,15,$5480998.72,$5.46,$3.84,23
+863,Jacobs-Moore,2RQgmC7IfJ,32,4,$7077105.60,$6.12,$5.15,46
+864,Wyman-Vandervort,vmZDbJ0,68,2,$4043723.71,$9.97,$4.81,6
+865,Spencer-Legros,IRRqoPRBvNP,14,79,$2964467.01,$3.66,$9.92,70
+866,Lowe Inc,5A1CAHO,41,46,$3946019.18,$4.63,$3.99,36
+867,"Bayer, Harber and Hoppe",6nb8GhdxCRHf,97,100,$7283132.15,$0.82,$7.71,23
+868,Bode-Ernser,WaylsySe,41,72,$7876782.71,$8.39,$9.98,5
+869,Harber Inc,OzMgmj,11,76,$8928986.35,$3.61,$5.38,74
+870,"O'Kon, Block and Altenwerth",NVRpiGSLmyfS,60,26,$2549246.14,$6.18,$5.40,5
+871,"Krajcik, Turcotte and Dietrich",YMHp5MQw,67,21,$6601539.46,$1.93,$2.88,87
+872,"Leuschke, Gerlach and Erdman",h0zmUL3Pqbx,48,58,$3906963.34,$6.32,$9.25,40
+873,Cormier Inc,aXzESKQsr,52,77,$6574283.79,$8.64,$6.89,20
+874,O'Connell Inc,tr9iZiBG7nZ,30,61,$2812634.56,$3.43,$2.21,57
+875,Turcotte-Becker,FAKvDUDkmn,51,78,$5719226.72,$2.12,$9.84,65
+876,"Heathcote, Haley and Auer",RqI1FZ,44,76,$5485405.89,$1.26,$6.41,60
+877,O'Connell Inc,cBz4mLoYwU,25,30,$1709892.32,$5.71,$5.11,61
+878,Langworth-Ryan,9JMFw2PmrB1,29,48,$3162193.18,$9.09,$4.77,68
+879,Abernathy-Larkin,pGeTf6,8,19,$1448193.86,$7.40,$8.48,20
+880,"Johnston, Frami and Pfannerstill",f5YqbjnOPnI4,47,76,$2133533.07,$3.51,$0.66,99
+881,Schroeder and Sons,1CXebtYTC,8,90,$7579874.60,$1.03,$9.66,24
+882,Leffler-Hyatt,6stQQibfk,15,15,$1057836.09,$8.88,$8.94,75
+883,Satterfield-Collier,mz7OAPqFIIC,40,80,$6968784.93,$9.86,$6.93,88
+884,Schinner and Sons,ECAqyhPRMf,97,63,$667103.42,$3.53,$2.93,35
+885,Bogisich Inc,cVXtUKJvaHM,90,7,$5607435.44,$9.45,$1.09,88
+886,"Stoltenberg, Ferry and McCullough",7BKLlKiXR,23,50,$4333953.64,$9.75,$0.84,11
+887,Schmeler-Fadel,98UsqeHudfNo,33,28,$7800349.66,$8.94,$7.21,83
+888,Buckridge-Hyatt,K9azyxIZiBh,49,75,$6982284.88,$0.08,$2.51,54
+889,Towne-Schmeler,FeDDwgJtX,99,50,$4425376.74,$3.75,$0.48,58
+890,Abshire-Walter,w4XC1vO,0,84,$5627742.89,$7.68,$4.67,76
+891,"Paucek, Ward and Walker",osdaktj,45,9,$63490.50,$6.52,$1.57,64
+892,Mertz Inc,YlKqn8dq,26,40,$4875605.74,$1.56,$6.61,95
+893,Lindgren-Gerlach,Xtec1nrbQXQ,59,7,$4934869.94,$4.15,$1.19,85
+894,Brakus and Sons,l0q9atMIz7,47,48,$2427907.48,$6.63,$3.27,6
+895,Kiehn-Prosacco,RgFjxGjB,86,0,$8857911.93,$5.19,$9.34,15
+896,"Reichel, Corkery and Cormier",586bFfNwqXFi,100,89,$1527010.34,$7.54,$3.78,86
+897,Hammes-Heidenreich,K3SBhPSAOzQx,92,19,$7911861.87,$9.74,$1.43,35
+898,Bashirian and Sons,iZ3iWs,81,68,$8448554.32,$3.90,$2.25,52
+899,Skiles LLC,JendpKRTepuj,24,7,$6767853.91,$3.55,$6.19,22
+900,"Denesik, DuBuque and Kautzer",RhUboQwG9d,5,41,$6444626.56,$8.10,$1.22,45
+901,Bailey Group,hLrFdiV,62,72,$8120696.68,$9.62,$9.80,34
+902,"Armstrong, Feil and Collins",XBZuVb,76,15,$8507184.88,$7.50,$8.26,92
+903,Conn-Wolf,aFfms5B3SgkM,41,93,$249200.18,$9.50,$3.45,25
+904,"Little, Turner and Ortiz",jCJXknQJHJa,53,53,$1472580.81,$6.98,$7.69,55
+905,Kessler-Dibbert,92NFgZIrz0ze,57,40,$187577.64,$7.55,$5.61,24
+906,Carter-Purdy,aDcAeZ00vx,86,83,$6991288.94,$0.00,$6.67,22
+907,"Schoen, Bruen and Ortiz",JwQcOSINBsgo,98,37,$3306511.50,$0.04,$0.94,86
+908,Volkman LLC,3rou4UR,49,29,$6109542.75,$0.36,$7.88,33
+909,"Rolfson, Casper and Kshlerin",4kP65gMC,65,61,$1731069.48,$4.14,$7.36,0
+910,Pouros Group,amhcn6,95,4,$552660.02,$3.30,$2.14,45
+911,O'Conner and Sons,cWnczL,33,77,$1346971.99,$2.69,$5.49,61
+912,McClure-Klein,dwuYADMR,85,88,$4343345.40,$1.34,$4.14,4
+913,Hansen-Gutkowski,89f97ZiwpU,51,65,$6795116.71,$1.72,$2.68,96
+914,"Wilderman, Hegmann and Bauch",fhLSDn30HG,6,26,$2619395.27,$2.12,$8.26,64
+915,"Braun, Jast and Kozey",IiWGn0SptFz,67,28,$4565267.29,$7.85,$9.33,36
+916,"Borer, Thompson and Mayert",vbcXrjXfF,62,3,$8757939.44,$9.42,$2.95,74
+917,"Stark, Morar and Cassin",dYrTmnKSGWD,29,46,$621944.40,$0.71,$9.32,9
+918,Trantow-Brakus,7Dan1P21xQb,77,7,$4639935.16,$8.38,$0.44,85
+919,Schuster-Sauer,db66eBC9BGu,34,1,$7132277.38,$6.95,$1.72,66
+920,Klocko and Sons,UcCVZcbLV4G,98,49,$2603220.62,$0.18,$2.88,54
+921,"Walker, Greenfelder and Medhurst",kSbSsEDVz,41,18,$4628549.25,$2.28,$9.75,3
+922,Bogisich-Kohler,2ONh3eP,87,14,$4409150.05,$5.90,$6.15,11
+923,"Hartmann, Mann and Cassin",DBXoJM,12,45,$5216213.91,$3.27,$8.43,51
+924,Cartwright-Jenkins,jF94zNNjTqmB,96,85,$7227360.41,$9.65,$2.07,61
+925,"Lueilwitz, Bosco and Donnelly",Cd9FS6Z,71,29,$1267111.02,$1.82,$0.59,27
+926,Schinner-Ebert,wJVKlImcG2,16,38,$1639648.67,$0.83,$2.24,86
+927,Ondricka and Sons,68lGJxv,81,93,$355794.12,$7.30,$5.37,83
+928,Legros Inc,4dQHpu5hY,6,83,$3934309.10,$1.40,$5.29,29
+929,"Hyatt, Padberg and Fay",Hs3yBMOI0,59,19,$6053792.95,$7.87,$6.15,17
+930,Hilll and Sons,qyBlIUzfFv,73,28,$3223546.96,$7.10,$0.24,52
+931,"Wyman, Gibson and Block",P8S4OqzF4P7,79,61,$5994569.98,$0.86,$1.38,41
+932,Block-Goyette,0Vf8vfXZGFZ4,68,49,$5545729.22,$8.40,$8.75,34
+933,Koss and Sons,hUkPzV1a,89,65,$8774714.90,$3.52,$0.26,10
+934,Murray Inc,8GbHh6JnAmpa,100,75,$2523181.06,$2.55,$1.25,7
+935,Koepp and Sons,tUfIsSqo6dM,63,73,$5824491.78,$3.05,$6.78,96
+936,Beier Inc,Z16g7ZVN,27,57,$3679010.42,$4.62,$3.06,56
+937,Senger LLC,dNGVBIntkV7,24,87,$7636904.16,$9.85,$8.91,7
+938,Ledner-Kozey,piTlgWTlItXW,33,29,$8980117.32,$8.44,$7.89,11
+939,"Waelchi, Nikolaus and Morissette",9IU8U7fSHZ5,3,7,$2391827.02,$8.11,$1.22,16
+940,"Zemlak, Bosco and Walter",1RI4pTUODYVt,97,18,$7294598.09,$2.99,$6.99,32
+941,Becker LLC,RJ7k4amCmwmn,67,93,$6198811.63,$3.27,$7.57,41
+942,Kiehn Group,Zc79quB3St,100,7,$6226194.46,$9.78,$9.13,5
+943,"Rogahn, Crona and Stracke",CtvVXh,2,91,$1602739.10,$5.74,$2.25,34
+944,"Koelpin, Schoen and Ferry",ZDHD0TOTA,3,13,$5454176.46,$4.86,$8.20,62
+945,"Von, Boehm and Senger",ku9hz2HNif,69,100,$920752.53,$6.00,$7.49,27
+946,"Hand, Labadie and Boyle",wY7A3OjA,62,74,$116146.98,$6.19,$8.20,66
+947,Lakin-Mills,8gWmfUfD5jru,49,29,$1215634.31,$2.20,$6.06,43
+948,"Hamill, Mann and Klein",7uYLDw2,77,36,$1617051.15,$7.93,$4.71,29
+949,Legros and Sons,CoRVZOTDmi,30,15,$8337458.19,$4.98,$2.65,76
+950,Heidenreich LLC,irPQIuXjn,59,98,$4536763.79,$4.06,$4.83,36
+951,Macejkovic Group,MI9Xw5I,37,35,$1071499.97,$1.24,$2.78,30
+952,Kreiger-Batz,TxT3FA,33,65,$3060308.47,$7.98,$2.04,24
+953,Cummerata LLC,Ssvltuua,74,69,$1799960.09,$1.22,$7.51,75
+954,Mills-DuBuque,AS9wpbFmW,62,9,$5334486.93,$4.72,$9.23,43
+955,"Treutel, Stark and Grant",4dtPHVB2,74,52,$8406259.59,$2.43,$0.94,91
+956,Oberbrunner Group,mlq4azTj,7,28,$191066.85,$0.42,$9.00,94
+957,Roob and Sons,YULT0bujLkG,50,95,$4437986.05,$0.50,$3.10,38
+958,"Hackett, Lubowitz and Carroll",dJpLXy8k,27,94,$6609459.80,$7.36,$2.18,22
+959,Russel Inc,4yvpLwcPcE,1,43,$7017133.89,$9.00,$3.05,4
+960,Hettinger-Orn,niE1oLskK,1,99,$2608216.95,$0.72,$7.57,86
+961,Price Group,iYcRkl,35,56,$4138779.44,$7.00,$9.25,69
+962,"Stark, Weimann and Kohler",8mRSPPojW0nl,30,32,$5765105.62,$6.31,$0.52,99
+963,"Bashirian, Mann and Jakubowski",aZvwS8TY,39,30,$1297059.80,$0.97,$7.53,3
+964,"Barton, Morar and Stroman",OrfzlJSX,67,79,$7318832.10,$5.51,$5.93,62
+965,"Shanahan, Koch and Brown",WU2Wj72kVk,15,47,$4811622.04,$9.68,$7.01,66
+966,Stiedemann Group,1P49k1KaB9AU,0,9,$4877291.10,$7.98,$5.73,84
+967,Block-Stroman,YOQ1CmguJY,95,67,$3434311.70,$8.05,$2.09,50
+968,"McKenzie, Bechtelar and Schaefer",E6pGCms,82,9,$2564942.13,$0.21,$1.99,4
+969,Olson-Leuschke,9nuXRu3EXn6,100,34,$2865759.99,$1.14,$9.98,52
+970,Mayert Group,GgUC9psXXL,41,29,$1505730.07,$8.25,$0.12,68
+971,Macejkovic-Shanahan,KD0kO0M,36,46,$1412768.92,$8.79,$9.44,6
+972,Kertzmann Inc,ZWvZ7pmzqd,4,98,$5803408.06,$2.51,$9.30,0
+973,"Schinner, Stoltenberg and Pacocha",fC9DEAtX38M,40,92,$1234680.84,$5.01,$3.92,40
+974,Lueilwitz and Sons,9EwzYdrx,76,9,$8887051.24,$5.93,$7.41,25
+975,"Herman, Haley and Hoppe",GhueMb,61,96,$8855739.51,$2.17,$0.49,51
+976,Koch Inc,UGXFCb,60,4,$881877.53,$2.74,$1.77,90
+977,Beahan Group,bSlBW1L,75,74,$1326011.03,$5.33,$5.36,28
+978,Schuster Inc,1l4lCDGYY,1,37,$8200639.92,$0.57,$8.94,92
+979,Thompson-Connelly,TGzAOQWSVbt,73,89,$5424463.04,$1.87,$1.89,25
+980,"Leffler, Bernier and Jacobson",ojUJ3R,39,100,$1015496.21,$7.22,$7.55,95
+981,Upton-Hintz,1w43bunEz,44,53,$1901620.63,$0.84,$6.53,37
+982,Heathcote-Bradtke,rjNr1UH,95,49,$6274629.85,$5.88,$3.21,99
+983,Mills Group,rurhyKqknrf,95,51,$4057428.55,$5.61,$0.99,73
+984,"DuBuque, Morar and Green",ZFDIEz,27,74,$2866516.80,$2.38,$9.30,57
+985,Pfannerstill-Klein,KQlZuPBU,55,97,$5737835.39,$8.13,$6.66,4
+986,Wolff-Rogahn,KjgzDHc,54,11,$1498682.59,$5.75,$3.30,78
+987,"Kris, Ankunding and Stroman",SasW3iEhiA,73,25,$5080254.35,$0.84,$2.59,38
+988,Kub-Ruecker,bhRQnD,41,85,$6143940.45,$0.76,$4.90,51
+989,Leffler-Hilll,zSzHbAAjh,93,5,$894547.82,$8.86,$1.66,58
+990,Mraz-Johnston,PFhgKJpWIO2,27,4,$3071900.71,$3.44,$6.65,76
+991,McLaughlin-Gottlieb,YaRiSm,66,18,$4141767.26,$2.61,$8.09,16
+992,Jones LLC,NjoRl6vsyV,22,25,$8361951.51,$6.07,$5.67,52
+993,Murray LLC,3fn39gO3D7t,13,41,$8172997.66,$0.50,$3.70,26
+994,"Pacocha, Padberg and Bradtke",h8HuRDDY3akw,20,51,$8160810.44,$7.14,$9.07,95
+995,Hills-Wolf,6e2RBPPf1F,63,100,$6340473.57,$7.95,$3.47,89
+996,Corkery and Sons,JNEmCqWwTlh,17,47,$215737.55,$8.42,$4.59,54
+997,Runolfsdottir-Kemmer,xzRTwSbW,72,95,$7691487.74,$7.68,$0.61,58
+998,Davis-Batz,8XiRZ6UK,88,57,$2888353.25,$7.79,$1.47,17
+999,Leuschke-Crist,mlAIpDkn2I,93,56,$1555498.11,$4.51,$5.37,13
+1000,"Gutkowski, Reinger and Rippin",Z3A9zEFHxCHx,0,46,$2619307.03,$4.12,$9.70,60

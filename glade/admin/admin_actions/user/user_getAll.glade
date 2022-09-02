@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkListStore" id="liststore1">
+    <columns>
+      <!-- column-name ID -->
+      <column type="guint64"/>
+      <!-- column-name логин -->
+      <column type="gchararray"/>
+      <!-- column-name пароль -->
+      <column type="gchararray"/>
+      <!-- column-name баланс($) -->
+      <column type="gchararray"/>
+      <!-- column-name всего пожертвовано($) -->
+      <column type="gchararray"/>
+      <!-- column-name кол-во закрытых сборов -->
+      <column type="guint64"/>
+    </columns>
+  </object>
+  <object class="GtkWindow" id="user_getAll_window">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkScrolledWindow" id="user_getAll_window_scrolled">
+        <property name="visible">True</property>
+        <property name="can-focus">True</property>
+        <property name="shadow-type">in</property>
+        <child>
+          <object class="GtkTreeView" id="user_Treeview">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="model">liststore1</property>
+            <property name="enable-grid-lines">both</property>
+            <child internal-child="selection">
+              <object class="GtkTreeSelection"/>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="column_ID">
+                <property name="fixed-width">127</property>
+                <property name="title" translatable="yes">ID</property>
+                <child>
+                  <object class="GtkCellRendererText" id="renderer_ID">
+                    <property name="background-rgba">rgb(255,255,255)</property>
+                  </object>
+                  <attributes>
+                    <attribute name="alignment">5</attribute>
+                    <attribute name="text">0</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="column_login">
+                <property name="fixed-width">233</property>
+                <property name="title" translatable="yes">Логин</property>
+                <child>
+                  <object class="GtkCellRendererText" id="renderer_login">
+                    <property name="background-rgba">rgb(255,255,255)</property>
+                  </object>
+                  <attributes>
+                    <attribute name="text">1</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="column_password">
+                <property name="fixed-width">200</property>
+                <property name="title" translatable="yes">Пароль</property>
+                <child>
+                  <object class="GtkCellRendererText" id="renderer_password">
+                    <property name="background-rgba">rgb(255,255,255)</property>
+                  </object>
+                  <attributes>
+                    <attribute name="text">2</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="column_balance">
+                <property name="fixed-width">150</property>
+                <property name="title" translatable="yes">Баланс</property>
+                <child>
+                  <object class="GtkCellRendererText" id="renderer_balance">
+                    <property name="background-rgba">rgb(255,255,255)</property>
+                  </object>
+                  <attributes>
+                    <attribute name="text">3</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="column_chSum">
+                <property name="title" translatable="yes">сумма пожертвований</property>
+                <child>
+                  <object class="GtkCellRendererText" id="renderer_chSum">
+                    <property name="background-rgba">rgb(255,255,255)</property>
+                  </object>
+                  <attributes>
+                    <attribute name="text">4</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="column_clFingAm">
+                <property name="title" translatable="yes">количество закрытых сборов</property>
+                <child>
+                  <object class="GtkCellRendererText" id="renderer_clFingAm">
+                    <property name="background-rgba">rgb(255,255,255)</property>
+                  </object>
+                  <attributes>
+                    <attribute name="text">5</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

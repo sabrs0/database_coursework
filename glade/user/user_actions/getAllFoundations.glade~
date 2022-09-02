@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="getAllFoundations_window">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkTreeView">
+        <property name="visible">True</property>
+        <property name="can-focus">True</property>
+        <property name="model">liststore1</property>
+        <property name="search-column">0</property>
+        <child internal-child="selection">
+          <object class="GtkTreeSelection"/>
+        </child>
+        <child>
+          <object class="GtkTreeViewColumn" id="column_id">
+            <property name="fixed-width">120</property>
+            <property name="title" translatable="yes">ID</property>
+            <child>
+              <object class="GtkCellRendererText" id="renderer_id">
+                <property name="background-rgba">rgb(255,255,255)</property>
+              </object>
+              <attributes>
+                <attribute name="text">0</attribute>
+              </attributes>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkTreeViewColumn" id="column_name">
+            <property name="fixed-width">200</property>
+            <property name="title" translatable="yes">название</property>
+            <child>
+              <object class="GtkCellRendererText" id="renderer_name">
+                <property name="background-rgba">rgb(255,255,255)</property>
+                <property name="foreground-rgba">rgb(0,0,0)</property>
+              </object>
+              <attributes>
+                <attribute name="text">3</attribute>
+              </attributes>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkTreeViewColumn" id="column_curFA">
+            <property name="title" translatable="yes">кол-во текущих сборов</property>
+            <child>
+              <object class="GtkCellRendererText" id="renderer_curFA">
+                <property name="background-rgba">rgb(255,255,255)</property>
+                <property name="foreground-rgba">rgb(0,0,0)</property>
+              </object>
+              <attributes>
+                <attribute name="text">4</attribute>
+              </attributes>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkTreeViewColumn" id="column_vAmount">
+            <property name="title" translatable="yes">количество волонтеров</property>
+            <child>
+              <object class="GtkCellRendererText" id="renderer_vAmount">
+                <property name="background-rgba">rgb(255,255,255)</property>
+                <property name="foreground-rgba">rgb(0,0,0)</property>
+              </object>
+              <attributes>
+                <attribute name="text">9</attribute>
+                <attribute name="placeholder-text">0</attribute>
+              </attributes>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkTreeViewColumn" id="column_country">
+            <property name="title" translatable="yes">страна</property>
+            <child>
+              <object class="GtkCellRendererText" id="rendered_country">
+                <property name="background-rgba">rgb(255,255,255)</property>
+                <property name="foreground-rgba">rgb(0,0,0)</property>
+              </object>
+              <attributes>
+                <attribute name="text">10</attribute>
+              </attributes>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkListStore" id="liststore1">
+    <columns>
+      <!-- column-name ID -->
+      <column type="guint64"/>
+      <!-- column-name название -->
+      <column type="gchararray"/>
+      <!-- column-name кол-во -->
+      <column type="guint64"/>
+      <!-- column-name кол-во1 -->
+      <column type="guint64"/>
+      <!-- column-name страна -->
+      <column type="gchararray"/>
+    </columns>
+  </object>
+</interface>

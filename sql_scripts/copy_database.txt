@@ -1,0 +1,3 @@
+CREATE DATABASE foundations_copy
+WITH TEMPLATE foundations
+OWNER postgres;
