@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <object class="GtkWindow" id="fillBalance_window">
+  <object class="GtkWindow">
     <property name="can-focus">False</property>
     <child>
       <object class="GtkFixed">
@@ -37,6 +37,7 @@
             <property name="height-request">35</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
+            <property name="input-purpose">number</property>
           </object>
           <packing>
             <property name="x">200</property>

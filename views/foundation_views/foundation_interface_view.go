@@ -1,4 +1,4 @@
-package user_views
+package foundation_views
 
 import (
 	"fmt"
@@ -14,26 +14,25 @@ import (
 	"gorm.io/gorm"
 )
 
-type UserActor struct {
-	User ents.User
-	UC   ctrls.UserController
-	FC   ctrls.FoundationController
-	FgC  ctrls.FoundrisingController
-	win  *gtk.Window
-	b    *gtk.Builder
+type FoundationActor struct {
+	Foundation ents.Foundation
+	FC         ctrls.FoundationController
+	FgC        ctrls.FoundrisingController
+	win        *gtk.Window
+	b          *gtk.Builder
 }
 
-func NewUserActor(db *gorm.DB) UserActor {
-	uc, fc, fgc := init_controllers(db)
-	return UserActor{UC: uc, FC: fc, FgC: fgc}
+func NewFoundationActor(db *gorm.DB) FoundationActor {
+	fc, fgc := init_controllers(db)
+	return FoundationActor{FC: fc, FgC: fgc}
 }
 
-func (UA *UserActor) User_auth(login string, password string) error {
-	if UA.UC.US.ExistsByLogin(login) {
-		U, err := UA.UC.GetByLogin(login)
+func (UA *FoundationActor) Foundation_auth(login string, password string) error {
+	if UA.FC.FS.ExistsByLogin(login) {
+		U, err := UA.FC.GetByLogin(login)
 		if err == nil {
 			if U.Password == password {
-				UA.User = U
+				UA.Foundation = U
 				return nil
 			} else {
 				return fmt.Errorf("неверный пароль для %s", U.Login)
@@ -46,7 +45,7 @@ func (UA *UserActor) User_auth(login string, password string) error {
 	}
 }
 
-func init_controllers(db *gorm.DB) (ctrls.UserController, ctrls.FoundationController, ctrls.FoundrisingController) {
+func init_controllers(db *gorm.DB) (ctrls.FoundationController, ctrls.FoundrisingController) {
 
 	FR := repos.NewFoundationRepository(db)
 	FS := servs.NewFoundationService(*FR)
@@ -61,14 +60,10 @@ func init_controllers(db *gorm.DB) (ctrls.UserController, ctrls.FoundationContro
 
 	TR := repos.NewTransactionRepository(db)
 	TS := servs.NewTransactionService(*TR)
-	UR := repos.NewUserRepository(db)
-	US := servs.NewUserService(*UR)
-	var UC ctrls.UserController
-	UC.US = US
-	UC.FS = FS
-	UC.FgS = FgS
-	UC.TS = TS
-	return UC, FC, FgC
+
+	FC.TS = TS
+	FC.FgS = FgS
+	return FC, FgC
 }
 func Get_window(filename string, winName string) (*gtk.Window, *gtk.Builder) {
 	b, err := gtk.BuilderNew()
@@ -98,78 +93,99 @@ func Get_window(filename string, winName string) (*gtk.Window, *gtk.Builder) {
 	})*/
 	return win, b
 }
-func (UA *UserActor) bindUserActions() {
-	obj, _ := UA.b.GetObject("getAllFoundations_button")
-	getAllFoundations_button := obj.(*gtk.Button)
-	getAllFoundations_button.Connect("clicked", func() {
-		UA.User_getAllFoundations_window()
+func (UA *FoundationActor) bindFoundationActions() {
+	obj, _ := UA.b.GetObject("getAllMyFoundrisings_button")
+	getAllMyFoundrisings_button := obj.(*gtk.Button)
+	getAllMyFoundrisings_button.Connect("clicked", func() {
+
+		UA.Foundation_getAllMyFoundrisings_window()
 	})
 
-	obj, _ = UA.b.GetObject("getFoundationByID_button")
-	getFoundationByID_button := obj.(*gtk.Button)
-	getFoundationByID_button.Connect("clicked", func() {
-		UA.User_getFoundationByID_window()
+	obj, _ = UA.b.GetObject("getMyFoundrisingByID_button")
+	getMyFoundrisingByID_button := obj.(*gtk.Button)
+	getMyFoundrisingByID_button.Connect("clicked", func() {
+		UA.Foundation_getMyFoundrisingByID_window()
 	})
-	obj, _ = UA.b.GetObject("getAllFoundrisings_button")
-	getAllFoundrisings_button := obj.(*gtk.Button)
-	getAllFoundrisings_button.Connect("clicked", func() {
-		UA.User_getAllFoundrisings_window()
+	obj, _ = UA.b.GetObject("createFoundrising_button")
+	createFoundrising_button := obj.(*gtk.Button)
+	createFoundrising_button.Connect("clicked", func() {
+		UA.Foundation_createFoundrising_window()
 	})
 	obj, _ = UA.b.GetObject("changeLogin_button")
 	changeLogin_button := obj.(*gtk.Button)
 	changeLogin_button.Connect("clicked", func() {
-		UA.User_changeLogin_window()
+		UA.Foundation_changeLogin_window()
 	})
 	obj, _ = UA.b.GetObject("changePassword_button")
 	changePassword_button := obj.(*gtk.Button)
 	changePassword_button.Connect("clicked", func() {
-		UA.User_changePassword_window()
+		UA.Foundation_changePassword_window()
 	})
 	obj, _ = UA.b.GetObject("fillBalance_button")
 	fillBalance_button := obj.(*gtk.Button)
 	fillBalance_button.Connect("clicked", func() {
-		UA.User_fillBalance_window()
+		UA.Foundation_fillBalance_window()
 	})
 
 	obj, _ = UA.b.GetObject("donate_main_button")
 	donate_main_button := obj.(*gtk.Button)
 	donate_main_button.Connect("clicked", func() {
 
-		UA.User_donate_full_window()
+		UA.Foundation_donate_full_window()
 	})
 
 }
 
-func (UA *UserActor) init_labels() {
+func (UA *FoundationActor) init_labels() {
 
 	obj, _ := UA.b.GetObject("ID_label")
 	ID_label := obj.(*gtk.Label)
-	str_id := "ID :" + strconv.FormatUint(UA.User.Id, 10)
+	str_id := "ID :" + strconv.FormatUint(UA.Foundation.Id, 10)
 	ID_label.SetText(str_id)
 
 	obj, _ = UA.b.GetObject("closedFingAmount_label")
 	closedFingAmount_label := obj.(*gtk.Label)
-	closedFingAmount_label.SetText("Кол-во закрытых сборов :" + strconv.FormatUint(UA.User.ClosedFingAmount, 10))
+	closedFingAmount_label.SetText("Кол-во закрытых сборов :" + strconv.FormatUint(uint64(UA.Foundation.ClosedFoundrisingAmount), 10))
 
 	obj, _ = UA.b.GetObject("login_label")
 	login_label := obj.(*gtk.Label)
-	login_label.SetText("Логин :" + UA.User.Login)
+	login_label.SetText("Логин :" + UA.Foundation.Login)
 
 	obj, _ = UA.b.GetObject("balance_label")
 	balance_label := obj.(*gtk.Label)
-	balance_label.SetText("Баланс :" + strconv.FormatFloat(UA.User.Balance, 'f', 2, 64))
+	balance_label.SetText("Баланс :" + strconv.FormatFloat(UA.Foundation.Fund_balance, 'f', 2, 64))
 
-	obj, _ = UA.b.GetObject("charitySum_label")
-	charitySum_label := obj.(*gtk.Label)
-	charitySum_label.SetText("Всего пожертвовано :" + strconv.FormatFloat(UA.User.CharitySum, 'f', 2, 64))
+	obj, _ = UA.b.GetObject("name_label")
+	name_label := obj.(*gtk.Label)
+	name_label.SetText("Название :" + UA.Foundation.Name)
+
+	obj, _ = UA.b.GetObject("curFingAmount_label")
+	curFingAmount_label := obj.(*gtk.Label)
+	curFingAmount_label.SetText("Кол-во активных сборов :" + strconv.FormatUint(uint64(UA.Foundation.CurFoudrisingAmount), 10))
+
+	obj, _ = UA.b.GetObject("country_label")
+	country_label := obj.(*gtk.Label)
+	country_label.SetText("Страна :" + UA.Foundation.Country)
+
+	obj, _ = UA.b.GetObject("vAmount_label")
+	vAmount_label := obj.(*gtk.Label)
+	vAmount_label.SetText("Кол-во волонтеров :" + strconv.FormatUint(uint64(UA.Foundation.Volunteer_amount), 10))
+
+	obj, _ = UA.b.GetObject("income_label")
+	income_label := obj.(*gtk.Label)
+	income_label.SetText("Получено средств :" + strconv.FormatFloat(UA.Foundation.Income_history, 'f', 2, 64))
+
+	obj, _ = UA.b.GetObject("outcome_label")
+	outcome_label := obj.(*gtk.Label)
+	outcome_label.SetText("Пожертвовано средств :" + strconv.FormatFloat(UA.Foundation.Outcome_history, 'f', 2, 64))
 }
-func (UA *UserActor) Update_User_interface_window() {
-	fmt.Println("UPDATING USER PAGE WITH VALUES ", UA.User)
+func (UA *FoundationActor) Update_Foundation_interface_window() {
+	fmt.Println("UPDATING Foundation PAGE WITH VALUES ", UA.Foundation)
 	UA.init_labels()
 	//не знаю, нужно ли это или нет
 	UA.win.ShowAll()
 }
-func (UA *UserActor) User_interface_window() {
+func (UA *FoundationActor) Foundation_interface_window() {
 
 	// Создаём билдер
 	b, err := gtk.BuilderNew()
@@ -177,13 +193,13 @@ func (UA *UserActor) User_interface_window() {
 		log.Fatal("Ошибка:", err)
 	}
 	// Загружаем в билдер окно из файла Glade
-	err = b.AddFromFile("glade/user/user_role_interface.glade")
+	err = b.AddFromFile("glade/foundation/foundation_role_interface.glade")
 	if err != nil {
 		log.Fatal("Ошибка:", err)
 	}
 
 	// Получаем объект главного окна по ID
-	obj, err := b.GetObject("user_interface_window")
+	obj, err := b.GetObject("foundation_interface_window")
 	if err != nil {
 		log.Fatal("Ошибка:", err)
 	}
@@ -200,6 +216,6 @@ func (UA *UserActor) User_interface_window() {
 	UA.win = win
 	UA.init_labels()
 	win.ShowAll()
-	UA.bindUserActions()
+	UA.bindFoundationActions()
 
 }

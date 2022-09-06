@@ -140,6 +140,23 @@
             <property name="y">267</property>
           </packing>
         </child>
+        <child>
+          <object class="GtkLabel" id="err_label">
+            <property name="width-request">249</property>
+            <property name="height-request">35</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Невозможно войти
+Введите корректный логин и пароль</property>
+            <attributes>
+              <attribute name="foreground" value="#e0e01b1b2424"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">183</property>
+            <property name="y">31</property>
+          </packing>
+        </child>
       </object>
     </child>
   </object>

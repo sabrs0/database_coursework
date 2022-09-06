@@ -32,7 +32,19 @@ func (UC *UserController) Add(login string, password string) error {
 }
 
 func (UC *UserController) Delete(id string) error {
-	return UC.US.Delete(id)
+	err := UC.US.Delete(id)
+	if err == nil {
+		transactions1, err := UC.TS.GetFromId(ents.FROM_USER, id, UC.FS, UC.US)
+		if err == nil {
+			for i := range transactions1 {
+				err = UC.TS.Delete(strconv.FormatUint(transactions1[i].Id, 10))
+				if err != nil {
+					return err
+				}
+			}
+		}
+	}
+	return err
 
 }
 func (UC *UserController) Update(id string, login string, password string) error {
@@ -102,39 +114,60 @@ func (UC *UserController) DonateToFoundrising(sum string, comm string, to_id str
 			if U.Balance < reqSum {
 				return fmt.Errorf("недостаточно средств ")
 			} else {
-				UDP = checker.NewUserDonateParams(reqSum, false)
-				err = UC.US.Donate(U, UDP)
+				foundrising, err := UC.FgS.GetById(to_id)
 				if err == nil {
-					isNewPh, err := isNewPhilantrop(UC.TS, UC.FgS, to_id, U.Id)
-					fmt.Println("IS IT NEW OR NOT ????? === ", isNewPh)
-					if err == nil {
-						var remainder float64
-						remainder, err = UC.FgS.AcceptDonate(to_id, reqSum, isNewPh)
+					if !foundrising.Closing_date.Valid {
+						UDP = checker.NewUserDonateParams(reqSum, false)
+						err = UC.US.Donate(U, UDP)
 						if err == nil {
-							sid, err := strconv.Atoi(to_id)
-							foundrising_id := uint64(sid)
+							isNewPh, err := isNewPhilantrop(UC.TS, UC.FgS, to_id, U.Id)
 							if err == nil {
-								TP := checker.NewTransactionMainParams(ents.FROM_USER, U.Id, ents.TO_FOUNDRISING, reqSum,
-									comm, foundrising_id)
-								err = UC.TS.Add(TP)
+								var remainder float64
+								remainder, err = UC.FgS.AcceptDonate(to_id, reqSum, isNewPh)
 								if err == nil {
-									if remainder > 0.0 {
-										foundrising, _ := UC.FgS.GetById(to_id)
-										found_id := foundrising.Found_id
-										TP := checker.NewTransactionMainParams(ents.FROM_USER, U.Id, ents.TO_FOUNDATION, remainder,
-											"returning the remain", found_id)
+									sid, err := strconv.Atoi(to_id)
+									foundrising_id := uint64(sid)
+									if err == nil {
+										TP := checker.NewTransactionMainParams(ents.FROM_USER, U.Id, ents.TO_FOUNDRISING, reqSum,
+											comm, foundrising_id)
 										err = UC.TS.Add(TP)
-										return err
-									} else if remainder <= 1e-9 {
-										U.ClosedFingAmount += 1
-										UC.US.UR.Update(*U)
+										if err == nil {
+											if remainder > 0.0 {
+												foundrising, _ := UC.FgS.GetById(to_id)
+												found_id := foundrising.Found_id
+												TP := checker.NewTransactionMainParams(ents.FROM_USER, U.Id, ents.TO_FOUNDATION, remainder,
+													"returning the remain", found_id)
+												err = UC.TS.Add(TP)
+												return err
+											} else if remainder <= 1e-9 {
+												U.ClosedFingAmount += 1
+												UC.US.UR.Update(*U)
+											}
+											return nil
+										}
 									}
-									return nil
 								}
 							}
 						}
 					}
 				}
+			}
+		}
+	}
+	return err
+}
+
+func (UC *UserController) ReplenishBalance(sum string, U *ents.User) error {
+	var err error
+	var reqSum float64
+	reqSum, err = strconv.ParseFloat(sum, 64)
+	if err == nil {
+		err = checkMoneyFormat(sum)
+		if err == nil {
+			if reqSum > 50000.00 {
+				return fmt.Errorf("введенная сумма превышается 50 000")
+			} else {
+				return UC.US.ReplenishBalance(U, reqSum)
 			}
 		}
 	}

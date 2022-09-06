@@ -4,6 +4,7 @@ import (
 	"db_course/business/checker"
 	ents "db_course/business/entities"
 	servs "db_course/business/services"
+	repos "db_course/dataAccess/repositories"
 	"db_course/my_errors"
 	"fmt"
 	"strconv"
@@ -50,6 +51,9 @@ func (UC *FoundrisingController) GetByFoundId(id string) ([]ents.Foundrising, er
 func (UC *FoundrisingController) GetByFoundIdActive(id string) ([]ents.Foundrising, error) {
 	return UC.FS.GetByFoundIdActive(id)
 }
+func (UC *FoundrisingController) GetByIdAndFoundId(id string, found_id string) (ents.Foundrising, error) {
+	return UC.FS.GetByIdAndFoundId(id, found_id)
+}
 
 func (UC *FoundrisingController) Add(found_id_ string, descr string, reqSum_ string) error {
 	sid, err := strconv.Atoi(found_id_)
@@ -72,14 +76,28 @@ func (UC *FoundrisingController) Add(found_id_ string, descr string, reqSum_ str
 			return fmt.Errorf(my_errors.ErrMoney)
 		}
 	} else {
-		return fmt.Errorf("incorrect found_id ")
+		return fmt.Errorf("некорректный id фонда")
 	}
 	return UC.FS.Add(FP)
 
 }
 
 func (UC *FoundrisingController) Delete(id string) error {
-	return UC.FS.Delete(id)
+	err := UC.FS.Delete(id)
+	if err == nil {
+		TR := repos.NewTransactionRepository(UC.FS.FR.DB)
+		TS := servs.NewTransactionService(*TR)
+		transactions1, err := TS.GetToId(ents.TO_FOUNDRISING, id, UC.FndS, UC.FS)
+		if err == nil {
+			for i := range transactions1 {
+				err = TS.Delete(strconv.FormatUint(transactions1[i].Id, 10))
+				if err != nil {
+					return err
+				}
+			}
+		}
+	}
+	return err
 
 }
 func (UC *FoundrisingController) Update(id string, descr string, reqSum_ string) error {

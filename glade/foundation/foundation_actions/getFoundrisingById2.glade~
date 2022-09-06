@@ -2,10 +2,10 @@
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <object class="GtkWindow" id="foundrising_update_window">
+  <object class="GtkWindow" id="getFoundrisingById2_window">
     <property name="can-focus">False</property>
     <child>
-      <object class="GtkFixed">
+      <object class="GtkFixed" id="found">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
         <child>
@@ -14,32 +14,36 @@
             <property name="height-request">80</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Обновление
-Сбора(необновляемые поля оставить пустыми)</property>
+            <property name="label" translatable="yes">Сбор</property>
             <attributes>
               <attribute name="font-desc" value="Sans 14"/>
             </attributes>
           </object>
         </child>
         <child>
-          <object class="GtkEntry" id="sum_entry">
-            <property name="width-request">249</property>
-            <property name="height-request">35</property>
+          <object class="GtkLabel" id="ID_label">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
-            <property name="width-chars">0</property>
-            <property name="input-purpose">number</property>
+            <property name="can-focus">False</property>
           </object>
           <packing>
-            <property name="x">170</property>
-            <property name="y">150</property>
+            <property name="x">40</property>
+            <property name="y">100</property>
           </packing>
         </child>
         <child>
-          <object class="GtkLabel">
+          <object class="GtkLabel" id="currentSum_label">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Новая сумма</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">300</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="foundID_label">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
           </object>
           <packing>
             <property name="x">40</property>
@@ -47,53 +51,68 @@
           </packing>
         </child>
         <child>
-          <object class="GtkLabel">
+          <object class="GtkLabel" id="reqSum_label">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Новое описание</property>
           </object>
           <packing>
             <property name="x">40</property>
-            <property name="y">200</property>
+            <property name="y">250</property>
           </packing>
         </child>
         <child>
-          <object class="GtkButton" id="update_button">
-            <property name="label" translatable="yes">Обновить</property>
+          <object class="GtkLabel" id="description_label">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Описание</property>
+          </object>
+          <packing>
+            <property name="x">600</property>
+            <property name="y">150</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="creationDate_label">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">400</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="closingDate_label">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">450</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="philantropsAmount_label">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">350</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="donate_button">
+            <property name="label" translatable="yes">Пожертвовать</property>
             <property name="width-request">100</property>
-            <property name="height-request">50</property>
+            <property name="height-request">80</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
           </object>
           <packing>
-            <property name="x">341</property>
-            <property name="y">400</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkEntry" id="ID_entry">
-            <property name="width-request">249</property>
-            <property name="height-request">35</property>
-            <property name="visible">True</property>
-            <property name="can-focus">True</property>
-            <property name="width-chars">0</property>
-            <property name="input-purpose">number</property>
-          </object>
-          <packing>
-            <property name="x">170</property>
-            <property name="y">100</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="label" translatable="yes">ID</property>
-          </object>
-          <packing>
-            <property name="x">40</property>
-            <property name="y">100</property>
+            <property name="x">477</property>
+            <property name="y">527</property>
           </packing>
         </child>
         <child>
@@ -104,16 +123,14 @@
             <property name="can-focus">True</property>
             <property name="shadow-type">in</property>
             <child>
-              <object class="GtkTextView" id="descr_entry">
-                <property name="width-request">249</property>
-                <property name="height-request">180</property>
+              <object class="GtkTextView">
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
               </object>
             </child>
           </object>
           <packing>
-            <property name="x">170</property>
+            <property name="x">600</property>
             <property name="y">200</property>
           </packing>
         </child>

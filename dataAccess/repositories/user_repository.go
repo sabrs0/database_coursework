@@ -2,7 +2,6 @@ package repositories
 
 import (
 	ents "db_course/business/entities"
-	"errors"
 	"fmt"
 
 	"gorm.io/gorm"
@@ -63,13 +62,21 @@ func (UR *UserRepository) Select() ([]ents.User, bool) {
 func (UR *UserRepository) SelectById(id uint64) (ents.User, bool) {
 	/*var User []ents.User
 	result := UR.DB.Table("user_tab").Find(&User, []uint64{id})*/
-	var User ents.User
-	result := UR.DB.Table("user_tab").Where("id = ?", id).First(&User)
-	return User, (result.Error == nil && !errors.Is(result.Error, gorm.ErrRecordNotFound))
+	var Users []ents.User
+	var U ents.User
+	result := UR.DB.Table("user_tab").Where("id = ?", id).Find(&Users)
+	if len(Users) != 0 {
+		U = Users[0]
+	}
+	return U, (result.Error == nil && len(Users) != 0)
 }
 
 func (UR *UserRepository) SelectByLogin(name string) (ents.User, bool) {
-	var User ents.User
-	result := UR.DB.Table("user_tab").Where("login = ?", name).First(&User)
-	return User, (result.Error == nil && !errors.Is(result.Error, gorm.ErrRecordNotFound))
+	var Users []ents.User
+	var U ents.User
+	result := UR.DB.Table("user_tab").Where("login = ?", name).Find(&Users)
+	if len(Users) != 0 {
+		U = Users[0]
+	}
+	return U, (result.Error == nil && len(Users) != 0)
 }

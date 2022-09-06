@@ -5,8 +5,6 @@ import (
 	"fmt"
 
 	"gorm.io/gorm"
-
-	"errors"
 )
 
 type ITransactionRepository interface {
@@ -53,9 +51,13 @@ func (TR *TransactionRepository) Select() ([]ents.Transaction, bool) {
 	return transactions, (result.Error == nil)
 }
 func (TR *TransactionRepository) SelectById(id uint64) (ents.Transaction, bool) {
-	var transaction ents.Transaction
-	result := TR.DB.Table("transaction_tab").Where("id = ?", id).First(&transaction)
-	return transaction, (result.Error == nil && !errors.Is(result.Error, gorm.ErrRecordNotFound))
+	var transactions []ents.Transaction
+	var t ents.Transaction
+	result := TR.DB.Table("transaction_tab").Where("id = ?", id).Find(&transactions)
+	if len(transactions) != 0 {
+		t = transactions[0]
+	}
+	return t, (result.Error == nil && len(transactions) != 0)
 }
 
 func (TR *TransactionRepository) SelectFrom(type_ bool, id uint64) ([]ents.Transaction, bool) {

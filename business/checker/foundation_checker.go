@@ -27,6 +27,9 @@ func (UP *FoundationMainParams) CheckParams() error {
 func NewFoundationMainParams(login string, passw string, name string, country string) FoundationMainParams {
 	return FoundationMainParams{Login: login, Name: name, Password: passw, Country: country}
 }
+func NewFoundationDonateParams(sum float64, isClosed bool) FoundationDonateParams {
+	return FoundationDonateParams{Sum_of_money: sum, IsClosedFoundrising: isClosed}
+}
 func CheckCountry(c string) error {
 	var flag bool = false
 	for _, cnt := range entities.Countries {

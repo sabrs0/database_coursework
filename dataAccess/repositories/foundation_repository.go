@@ -2,7 +2,6 @@ package repositories
 
 import (
 	ents "db_course/business/entities"
-	"errors"
 	"fmt"
 
 	"gorm.io/gorm"
@@ -61,15 +60,23 @@ func (FR *FoundationRepository) Select() ([]ents.Foundation, bool) {
 	return foundation_tab, (result.Error == nil)
 }
 func (FR *FoundationRepository) SelectById(id uint64) (ents.Foundation, bool) {
-	var Foundation ents.Foundation
-	result := FR.DB.Table("foundation_tab").Where("id = ?", id).First(&Foundation)
-	return Foundation, (result.Error == nil && !errors.Is(result.Error, gorm.ErrRecordNotFound))
+	var Foundations []ents.Foundation
+	var f ents.Foundation
+	result := FR.DB.Table("foundation_tab").Where("id = ?", id).Find(&Foundations)
+	if len(Foundations) != 0 {
+		f = Foundations[0]
+	}
+	return f, (result.Error == nil && len(Foundations) != 0)
 }
 
 func (FR *FoundationRepository) SelectByLogin(name string) (ents.Foundation, bool) {
-	var Foundation ents.Foundation
-	result := FR.DB.Table("foundation_tab").Where("login = ?", name).First(&Foundation)
-	return Foundation, (result.Error == nil && !errors.Is(result.Error, gorm.ErrRecordNotFound))
+	var Foundations []ents.Foundation
+	var f ents.Foundation
+	result := FR.DB.Table("foundation_tab").Where("login = ?", name).Find(&Foundations)
+	if len(Foundations) != 0 {
+		f = Foundations[0]
+	}
+	return f, (result.Error == nil && len(Foundations) != 0)
 }
 func (FR *FoundationRepository) SelectByName(name string) (ents.Foundation, bool) {
 	var Foundation ents.Foundation

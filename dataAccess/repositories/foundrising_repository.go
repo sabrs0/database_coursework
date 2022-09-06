@@ -5,8 +5,6 @@ import (
 
 	"fmt"
 
-	"errors"
-
 	"gorm.io/gorm"
 )
 
@@ -65,9 +63,13 @@ func (FR *FoundrisingRepository) Select() ([]ents.Foundrising, bool) {
 	return foundrisings, (result.Error == nil)
 }
 func (FR *FoundrisingRepository) SelectById(id uint64) (ents.Foundrising, bool) {
-	var Foundrising ents.Foundrising
-	result := FR.DB.Table("foundrising_tab").Where("id = ?", id).First(&Foundrising)
-	return Foundrising, (result.Error == nil && !errors.Is(result.Error, gorm.ErrRecordNotFound))
+	var Foundrisings []ents.Foundrising
+	var f ents.Foundrising
+	result := FR.DB.Table("foundrising_tab").Where("id = ?", id).Find(&Foundrisings)
+	if len(Foundrisings) != 0 {
+		f = Foundrisings[0]
+	}
+	return f, (result.Error == nil && len(Foundrisings) != 0)
 }
 
 func (FR *FoundrisingRepository) SelectByFoundId(id uint64) ([]ents.Foundrising, bool) {
@@ -93,4 +95,14 @@ func (FR *FoundrisingRepository) SelectByCloseDate(date string) ([]ents.Foundris
 	var Foundrising []ents.Foundrising
 	result := FR.DB.Table("foundrising_tab").Where("closing_date = ?", date).Order("ID").Find(&Foundrising)
 	return Foundrising, (result.Error == nil && len(Foundrising) != 0)
+}
+
+func (FR *FoundrisingRepository) SelectByIdAndFoundId(id_ uint64, found_id_ uint64) (ents.Foundrising, bool) {
+	var Foundrising []ents.Foundrising
+	result := FR.DB.Table("foundrising_tab").Where("id = ? AND found_id = ?", id_, found_id_).Order("ID").Find(&Foundrising)
+	var F ents.Foundrising
+	if len(Foundrising) > 0 {
+		F = Foundrising[0]
+	}
+	return F, (result.Error == nil && len(Foundrising) != 0)
 }

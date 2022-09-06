@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <object class="GtkWindow" id="foundrising_update_window">
+  <object class="GtkWindow" id="create_foundrising_window">
     <property name="can-focus">False</property>
     <child>
       <object class="GtkFixed">
@@ -14,8 +14,8 @@
             <property name="height-request">80</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Обновление
-Сбора(необновляемые поля оставить пустыми)</property>
+            <property name="label" translatable="yes">Создание
+Сбора</property>
             <attributes>
               <attribute name="font-desc" value="Sans 14"/>
             </attributes>
@@ -31,7 +31,7 @@
             <property name="input-purpose">number</property>
           </object>
           <packing>
-            <property name="x">170</property>
+            <property name="x">150</property>
             <property name="y">150</property>
           </packing>
         </child>
@@ -39,27 +39,17 @@
           <object class="GtkLabel">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Новая сумма</property>
+            <property name="label" translatable="yes">Необходимая 
+сумма</property>
           </object>
           <packing>
-            <property name="x">40</property>
+            <property name="x">50</property>
             <property name="y">150</property>
           </packing>
         </child>
         <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Новое описание</property>
-          </object>
-          <packing>
-            <property name="x">40</property>
-            <property name="y">200</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButton" id="update_button">
-            <property name="label" translatable="yes">Обновить</property>
+          <object class="GtkButton" id="create_button">
+            <property name="label" translatable="yes">Создать</property>
             <property name="width-request">100</property>
             <property name="height-request">50</property>
             <property name="visible">True</property>
@@ -72,28 +62,14 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="ID_entry">
-            <property name="width-request">249</property>
-            <property name="height-request">35</property>
-            <property name="visible">True</property>
-            <property name="can-focus">True</property>
-            <property name="width-chars">0</property>
-            <property name="input-purpose">number</property>
-          </object>
-          <packing>
-            <property name="x">170</property>
-            <property name="y">100</property>
-          </packing>
-        </child>
-        <child>
           <object class="GtkLabel">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">ID</property>
+            <property name="label" translatable="yes">Описание</property>
           </object>
           <packing>
-            <property name="x">40</property>
-            <property name="y">100</property>
+            <property name="x">50</property>
+            <property name="y">200</property>
           </packing>
         </child>
         <child>
@@ -113,7 +89,7 @@
             </child>
           </object>
           <packing>
-            <property name="x">170</property>
+            <property name="x">150</property>
             <property name="y">200</property>
           </packing>
         </child>

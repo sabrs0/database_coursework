@@ -93,7 +93,7 @@ func (US *UserService) Delete(id_ string) error {
 func (US *UserService) GetAll() ([]ents.User, error) {
 	Users, err := US.UR.Select()
 	if !err {
-		return nil, fmt.Errorf("error in get all user service")
+		return nil, fmt.Errorf("не удалось получить список всех пользователей")
 	} else {
 		return Users, nil
 	}
@@ -103,7 +103,7 @@ func (US *UserService) GetById(id_ string) (ents.User, error) {
 	id := uint64(sid)
 	var U ents.User
 	if err != nil {
-		return U, fmt.Errorf("error incorrect id")
+		return U, fmt.Errorf("некорректный id")
 	} else {
 		if !US.ExistsById(id) {
 			return U, fmt.Errorf(my_errors.ErrNotExists)
@@ -111,7 +111,7 @@ func (US *UserService) GetById(id_ string) (ents.User, error) {
 			var err_ bool
 			U, err_ = US.UR.SelectById(id)
 			if !err_ {
-				return U, fmt.Errorf("error while selecting user by id service")
+				return U, fmt.Errorf("не удалось получить пользователся по id")
 			}
 		}
 	}
@@ -126,7 +126,7 @@ func (US *UserService) GetByLogin(name_ string) (ents.User, error) {
 		var err_ bool
 		U, err_ = US.UR.SelectByLogin(name_)
 		if !err_ {
-			return U, fmt.Errorf("error while selecting user by id service")
+			return U, fmt.Errorf("не удалось получить пользователся по логину")
 		}
 	}
 	return U, nil
@@ -142,14 +142,13 @@ func (US *UserService) Donate(U *ents.User, DP chk.UserDonateParams) error {
 	return nil
 }
 
-func (US *UserService) ReplenishBalance(id_ string, sum float64) error {
-	var U ents.User
+func (US *UserService) ReplenishBalance(U *ents.User, sum float64) error {
 	var err error
-	U, err = US.GetById(id_)
 	if err != nil {
-		return fmt.Errorf("error in donate user service")
+		return fmt.Errorf("не удалось пополнить баланс")
 	} else {
 		U.Balance += sum
 	}
+	US.UR.Update(*U)
 	return nil
 }

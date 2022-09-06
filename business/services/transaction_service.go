@@ -66,7 +66,7 @@ func (FS *TransactionService) Delete(id_ string) error {
 func (FS *TransactionService) GetAll() ([]ents.Transaction, error) {
 	Transactions, err := FS.TR.Select()
 	if !err {
-		return nil, fmt.Errorf("error in get all Transaction service")
+		return nil, fmt.Errorf("не удалось получить список всех транзакций")
 	} else {
 		return Transactions, nil
 	}
@@ -76,15 +76,15 @@ func (FS *TransactionService) GetById(id_ string) (ents.Transaction, error) {
 	id := uint64(sid)
 	var U ents.Transaction
 	if err != nil {
-		return U, fmt.Errorf("error incorrect id")
+		return U, fmt.Errorf("некорректный id")
 	} else {
 		if !FS.ExistsById(id) {
-			return U, fmt.Errorf("error unexisted id")
+			return U, fmt.Errorf("несуществующий id")
 		} else {
 			var err_ bool
 			U, err_ = FS.TR.SelectById(id)
 			if !err_ {
-				return U, fmt.Errorf("error while selecting Transaction by id service")
+				return U, fmt.Errorf("не удалось получить транзакцию по id")
 			}
 		}
 	}
@@ -98,26 +98,26 @@ func (TS *TransactionService) GetFromId(type_ bool, id_ string, FndS FoundationS
 	id := uint64(sid)
 	var U []ents.Transaction
 	if err != nil {
-		return U, fmt.Errorf("error incorrect id")
+		return U, fmt.Errorf("некорректный id")
 	} else {
 		if type_ == ents.FROM_USER {
 			if !US.ExistsById(id) {
-				return U, fmt.Errorf("error unexisted User id")
+				return U, fmt.Errorf("несуществующий id")
 			} else {
 				var err_ bool
 				U, err_ = TS.TR.SelectFrom(type_, id)
 				if !err_ {
-					return U, fmt.Errorf("error while selecting Transaction from id service")
+					return U, fmt.Errorf("не удалось получить транзакцию по id отправителя")
 				}
 			}
 		} else {
 			if !FndS.ExistsById(id) {
-				return U, fmt.Errorf("error unexisted Foundation id")
+				return U, fmt.Errorf("несуществующий id")
 			} else {
 				var err_ bool
 				U, err_ = TS.TR.SelectFrom(type_, id)
 				if !err_ {
-					return U, fmt.Errorf("error while selecting Transaction from id service")
+					return U, fmt.Errorf("не удалось получить транзакцию по id отправителя")
 				}
 			}
 		}
@@ -131,26 +131,26 @@ func (TS *TransactionService) GetToId(type_ bool, id_ string, FndS FoundationSer
 	id := uint64(sid)
 	var U []ents.Transaction
 	if err != nil {
-		return U, fmt.Errorf("error incorrect id")
+		return U, fmt.Errorf("некорректный id")
 	} else {
 		if type_ == ents.TO_FOUNDATION {
 			if !FndS.ExistsById(id) {
-				return U, fmt.Errorf("error unexisted Foundation id")
+				return U, fmt.Errorf("несуществующий id")
 			} else {
 				var err_ bool
 				U, err_ = TS.TR.SelectTo(type_, id)
 				if !err_ {
-					return U, fmt.Errorf("error while selecting Transaction to id service")
+					return U, fmt.Errorf("не удалось получить транзакцию по id получателя")
 				}
 			}
 		} else {
 			if !FndgS.ExistsById(id) {
-				return U, fmt.Errorf("error unexisted Foundrising id")
+				return U, fmt.Errorf("несуществующий id")
 			} else {
 				var err_ bool
 				U, err_ = TS.TR.SelectTo(type_, id)
 				if !err_ {
-					return U, fmt.Errorf("error while selecting Transaction to id service")
+					return U, fmt.Errorf("не удалось получить транзакцию по id получателя")
 				}
 			}
 		}
@@ -163,15 +163,15 @@ func (TS *TransactionService) GetFoundrisingPhilantropIds(id_ string, FndgS Foun
 	id := uint64(sid)
 	var IDs []uint64
 	if err != nil {
-		return IDs, fmt.Errorf("error incorrect id")
+		return IDs, fmt.Errorf("некорректный id")
 	} else {
 		if !FndgS.ExistsById(id) {
-			return IDs, fmt.Errorf("error unexisted Foundrising id")
+			return IDs, fmt.Errorf("несуществующий id")
 		} else {
 			var err_ bool
 			IDs, err_ = TS.TR.SelectFoundrisingPhilantropIds(id)
 			if !err_ {
-				return IDs, fmt.Errorf("error while selecting in Transaction service philantrops")
+				return IDs, fmt.Errorf("не удалось получить id филантропов ")
 			}
 		}
 		return IDs, nil

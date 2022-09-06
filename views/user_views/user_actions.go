@@ -119,6 +119,7 @@ func (UA *UserActor) User_foundation_Page(foundation ents.Foundation) {
 }
 
 func (UA *UserActor) User_donate_lite_window(str_id string, to_type bool) {
+
 	win, b := Get_window("glade/user/user_actions/donate_lite.glade", "donate_lite_window")
 	win.ShowAll()
 	obj, _ := b.GetObject("sum_entry")
@@ -198,9 +199,9 @@ func (UA *UserActor) SetFoundrisingLabels(foundrising ents.Foundrising, b *gtk.B
 	str_reqSum := strconv.FormatFloat(foundrising.Required_sum, 'f', 2, 64)
 	foundID_label.SetText("Необходимая сумма :" + str_reqSum)
 
-	obj, _ = b.GetObject("description_label")
-	description_label := obj.(*gtk.Label)
-	description_label.SetText("Описание :" + foundrising.Description)
+	obj, _ = b.GetObject("descr_view")
+	descr_view := obj.(*gtk.TextView)
+	av.SetTextFromTextView(descr_view, foundrising.Description)
 
 	obj, _ = b.GetObject("creationDate_label")
 	creationDate_label := obj.(*gtk.Label)
@@ -212,7 +213,7 @@ func (UA *UserActor) SetFoundrisingLabels(foundrising ents.Foundrising, b *gtk.B
 	if !foundrising.Closing_date.Valid {
 		str_closing = "Сбор еще не закрыт"
 	} else {
-		str_closing = foundrising.Closing_date.String
+		str_closing = foundrising.Closing_date.String[:strings.Index(foundrising.Closing_date.String, "T")]
 	}
 	closingDate_label.SetText("Дата закрытия :" + str_closing)
 
@@ -258,7 +259,7 @@ func (UA *UserActor) User_foundrising_Pages(foundrisings []ents.Foundrising) {
 	})
 }
 func (UA *UserActor) User_changeLogin_window() {
-	win, b := Get_window("glade/user/user_actions/changeLogin.glade", "change_login_window")
+	win, b := Get_window("glade/user/user_actions/change_login.glade", "changeLogin_window")
 
 	win.ShowAll()
 
@@ -273,11 +274,161 @@ func (UA *UserActor) User_changeLogin_window() {
 			if len(login) == 0 {
 				av.Error_window("логин не был введен")
 			} else {
-				UA.UC.Update(strconv.FormatUint(UA.User.Id, 10), login, "")
+				err := UA.UC.Update(strconv.FormatUint(UA.User.Id, 10), login, "")
+				if err == nil {
+					UA.User.SetLogin(login)
+					av.Success_window()
+					UA.Update_User_interface_window()
+					win.Close()
+				} else {
+					av.Error_window(err.Error())
+				}
 			}
 		} else {
 			av.Error_window(err.Error())
 		}
 
+	})
+}
+
+func (UA *UserActor) User_changePassword_window() {
+	win, b := Get_window("glade/user/user_actions/change_password.glade", "changePassword_window")
+
+	win.ShowAll()
+
+	obj, _ := b.GetObject("changePassword_button")
+	change_button := obj.(*gtk.Button)
+
+	obj, _ = b.GetObject("password_entry")
+	password_entry := obj.(*gtk.Entry)
+	change_button.Connect("clicked", func() {
+		password, err := password_entry.GetText()
+		if err == nil {
+			if len(password) == 0 {
+				av.Error_window("пароль не был введен")
+			} else {
+				err := UA.UC.Update(strconv.FormatUint(UA.User.Id, 10), "", password)
+				if err == nil {
+					UA.User.SetPassword(password)
+					av.Success_window()
+					UA.Update_User_interface_window()
+					win.Close()
+				} else {
+					av.Error_window(err.Error())
+				}
+			}
+		} else {
+			av.Error_window(err.Error())
+		}
+
+	})
+}
+
+func (UA *UserActor) User_fillBalance_window() {
+
+	win, b := Get_window("glade/user/user_actions/fill_balance.glade", "fillBalance_window")
+
+	win.ShowAll()
+
+	obj, _ := b.GetObject("fillBalance_button")
+	fillBalance_button := obj.(*gtk.Button)
+
+	obj, _ = b.GetObject("sum_entry")
+	sum_entry := obj.(*gtk.Entry)
+	fillBalance_button.Connect("clicked", func() {
+		sum, err := sum_entry.GetText()
+		if err == nil {
+			if len(sum) == 0 {
+				av.Error_window("сумма не была введена")
+			} else {
+				err := UA.UC.ReplenishBalance(sum, &UA.User)
+				if err == nil {
+					av.Success_window()
+					UA.Update_User_interface_window()
+					win.Close()
+				} else {
+					av.Error_window(err.Error())
+				}
+			}
+		} else {
+			av.Error_window(err.Error())
+		}
+
+	})
+}
+
+func (UA *UserActor) User_donate_full_window() {
+	win, b := Get_window("glade/user/user_actions/donate.glade", "donate_window")
+	win.ShowAll()
+	var (
+		is_foundation  bool
+		is_foundrising bool
+	)
+	obj, _ := b.GetObject("kostil_radio_button")
+	kostil_radio_button := obj.(*gtk.RadioButton)
+	kostil_radio_button.SetVisible(false)
+
+	obj, _ = b.GetObject("foundation_radio_button")
+	foundation_radio_button := obj.(*gtk.RadioButton)
+
+	foundation_radio_button.Connect("toggled", func() {
+		is_foundation = true
+		is_foundrising = false
+	})
+
+	obj, _ = b.GetObject("foundrising_radio_button")
+	foundrising_radio_button := obj.(*gtk.RadioButton)
+
+	foundrising_radio_button.Connect("toggled", func() {
+		is_foundation = false
+		is_foundrising = true
+	})
+
+	obj, _ = b.GetObject("ID_entry")
+	ID_entry := obj.(*gtk.Entry)
+
+	obj, _ = b.GetObject("sum_entry")
+	sum_entry := obj.(*gtk.Entry)
+
+	obj, _ = b.GetObject("сomm_entry")
+	сomm_entry := obj.(*gtk.Entry)
+
+	obj, _ = b.GetObject("donate_button")
+	donate_button := obj.(*gtk.Button)
+	var sum, comm, str_id string
+	var err error
+	donate_button.Connect("clicked", func() {
+		str_id, err = ID_entry.GetText()
+		if err == nil {
+			sum, err = sum_entry.GetText()
+			if err == nil {
+				comm, err = сomm_entry.GetText()
+				if err == nil {
+					if !is_foundation && !is_foundrising {
+						av.Error_window("необходимо выбрать получателя")
+					} else {
+						if is_foundation {
+							err = UA.UC.DonateToFoundation(sum, comm, str_id, &UA.User)
+						} else if is_foundrising {
+							err = UA.UC.DonateToFoundrising(sum, comm, str_id, &UA.User)
+						}
+						if err == nil {
+							av.Success_window()
+							UA.Update_User_interface_window()
+							win.Close()
+						} else {
+							av.Error_window(err.Error())
+						}
+					}
+				} else {
+					av.Error_window(err.Error())
+				}
+
+			} else {
+				av.Error_window(err.Error())
+			}
+		} else {
+			av.Error_window(err.Error())
+		}
 	})
 }
