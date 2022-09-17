@@ -14,7 +14,6 @@ func NewTransaction() Transaction {
 	return Transaction{}
 }
 
-//то что ниже - не точно)))
 func NewTransactionPtr() *Transaction {
 	return &Transaction{}
 }

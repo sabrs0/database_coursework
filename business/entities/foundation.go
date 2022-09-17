@@ -20,7 +20,6 @@ func NewFoundation() Foundation {
 	return Foundation{}
 }
 
-//то что ниже - не точно)))
 func NewFoundationPtr() *Foundation {
 	return &Foundation{}
 }

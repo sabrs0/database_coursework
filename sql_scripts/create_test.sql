@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS foundations;
-CREATE DATABASE foundations;
+DROP DATABASE IF EXISTS test_copy;
+CREATE DATABASE test_copy;
 
-\c foundations;
+\c test_copy;
 
 CREATE TABLE USER_TAB(
                      id integer NOT NULL PRIMARY KEY,

@@ -58,7 +58,7 @@ func addRow_foundation(listStore *gtk.ListStore, F ents.Foundation) {
 	iter := listStore.Append()
 	err := listStore.Set(iter, []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, []interface{}{F.Id, F.Login, F.Password, F.Name,
 		F.CurFoudrisingAmount, F.ClosedFoundrisingAmount, fmt.Sprintf("%.2f", F.Fund_balance), fmt.Sprintf("%.2f", F.Income_history),
-		fmt.Sprintf("%.2f", F.Income_history), F.Volunteer_amount, F.Country})
+		fmt.Sprintf("%.2f", F.Outcome_history), F.Volunteer_amount, F.Country})
 
 	if err != nil {
 		log.Fatal("Unable to add row:", err)

@@ -101,6 +101,7 @@ func Admin_foundrising_getAll_window(UC ctrls.FoundrisingController) {
 	}
 	store := obj.(*gtk.ListStore)
 	foundrisings, err := UC.GetAll()
+	fmt.Println(foundrisings)
 	if err == nil {
 		for _, U := range foundrisings {
 			addRow_foundrising(store, U)
@@ -114,11 +115,15 @@ func Admin_foundrising_getAll_window(UC ctrls.FoundrisingController) {
 }
 func addRow_foundrising(listStore *gtk.ListStore, F ents.Foundrising) {
 	// Get an iterator for a new row at the end of the list store
+	var cloDate string
 	iter := listStore.Append()
+	if F.Closing_date.Valid {
+		cloDate = F.Closing_date.String[:strings.Index(F.Closing_date.String, "T")]
+	}
 	err := listStore.Set(iter, []int{0, 1, 2, 3, 4, 5, 6, 7}, []interface{}{F.Id, F.Found_id, F.Description,
 		fmt.Sprintf("%.2f", F.Required_sum), fmt.Sprintf("%.2f", F.Current_sum),
 		F.Philantrops_amount,
-		F.Creation_date[:strings.Index(F.Creation_date, "T")], F.Closing_date.String[:strings.Index(F.Closing_date.String, "T")]})
+		F.Creation_date[:strings.Index(F.Creation_date, "T")], cloDate})
 	if err != nil {
 		log.Fatal("Unable to add row:", err)
 		fmt.Println("Unable to add row:", err)

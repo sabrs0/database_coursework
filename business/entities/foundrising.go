@@ -12,20 +12,19 @@ type Foundrising struct {
 	Current_sum        float64
 	Philantrops_amount uint64
 	Creation_date      string
-	Closing_date       sql.NullString //string
+	Closing_date       sql.NullString
 }
 
 func NewFoundrising() Foundrising {
 	return Foundrising{}
 }
 
-//то что ниже - не точно)))
 func NewFoundrisingPtr() *Foundrising {
 	return &Foundrising{}
 }
 
-func (F *Foundrising) SetDescription(newName string) {
-	F.Description = newName
+func (F *Foundrising) SetDescription(n string) {
+	F.Description = n
 }
 
 func (F *Foundrising) SetReqSum(sum float64) {

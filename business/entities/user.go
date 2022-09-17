@@ -13,7 +13,6 @@ func NewUser() User {
 	return User{}
 }
 
-//то что ниже - не точно)))
 func NewUserPtr() *User {
 	return &User{}
 }

@@ -76,7 +76,6 @@ func (FS *FoundrisingService) Delete(id_ string) error {
 }
 func (FS *FoundrisingService) GetAll() ([]ents.Foundrising, error) {
 	Foundrisings, err := FS.FR.Select()
-	fmt.Println(Foundrisings)
 
 	if !err {
 		return nil, fmt.Errorf("не удалось получить список всех сборов")
